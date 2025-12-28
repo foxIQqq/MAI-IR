@@ -1,0 +1,3 @@
+Выпуск проприетарного драйвера AMD Catalyst 15.7
+
+Компания AMD опубликовала новую версию проприетарного драйвера AMD Catalyst 15.7 (174 Мб). В новом выпуске для OpenCL 2.0 реализована возможность задействования нескольких устройств (Multi-Device), добавлена поддержка GPU Radeon R9 300 и R9 Fury X, обеспечена поддержка AMD PowerXpress для ноутбуков с CPU Intel Skylake, улучшена работа Linux Platform Atomics и SVM Fine Grain Buffer на APU Carrizo. Драйвер поддерживает X-Server 1.17, ядро Linux 3.19 и glibc 2.3. Из официально поддерживаемых дистрибутивов названы Red Hat Enterprise Linux 7.1, 7.0, 6.6, 6.5, Ubuntu 12.04.4 LTS, 14.04.2, 15.04, SUSE Linux Enterprise 11 SP3, 12 и OpenSuSE 13.1.

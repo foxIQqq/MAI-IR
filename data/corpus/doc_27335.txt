@@ -1,0 +1,3 @@
+Компания Microsoft перевела проекты IronRuby и IronPython на лицензию Apache
+
+Компания Microsoft изменила лицензию на код Dynamic Language Runtime и связанных с данной системой проектов IronRuby и IronPython. Вместо ранее используемой лицензии Ms-Pl (Microsoft Public License), проекты переведены на лицензию Apache 2.0, которая является совместимой с GPL. Лицензия Ms-PL утверждена в свое время организацией OSI как открытая, но фонд FSF признал данную лицензию несовместимой с GPL. IronRuby и IronPython написаны на языке C# и представляют собой построенные на основе Dynamic Language Runtime трансляторы языков Ruby и Python для платформ .NET и Silverlight.

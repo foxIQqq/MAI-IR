@@ -1,0 +1,3 @@
+Вышел Ultimate Edition 2.8 Gamers - вариант Ubuntu для игроков
+
+Вышел релиз специализированной LiveDVD-сборки Linux-дистрибутива Ultimate Edition 2.8, основанной на Ubuntu 10.10 и укомплектованной подборкой предустановленных пакетов с популярными игровыми приложениями. Размер загрузочного iso-образа - 4 Гб. Из игр присутствуют: Urbanterror с дополнительными картами, Warzone 2100, Enemy-territory, Armagetronad, Gunroar, Hedgewars, Kobo deluxe, Pingus, Bzflag, Chromium-bsu, Gridwars 2, Criticalmass, Defendguin, Assaultcube, Frozen-bubble, Kapman, Kblocks, Fretsonfire, Glest, Barrage, Scorched3d, Performous, Boswars, Orbital-eunuchs-sniper, Warsow. Для запуска игр для платформы Windows в комплект входит пакет PlayOnLinux

@@ -1,0 +1,3 @@
+Релиз Wine 1.5.25
+
+Вышел очередной экспериментальный релиз открытой реализации Win32 API - Wine 1.5.25. С момента выпуска версии 1.5.24 было закрыто 40 отчётов об ошибках. Из наиболее важных изменений отмечается: В состав включена начальная версия шрифта Wingdings; В драйвере Mac обеспечена корректная поддержка курсора; В RichEdit внесены исправления для улучшения поддержки языков с написанием справа налево; Устранены проблемы при запуске игр: Civilization V, The Testament of Sherlock Holmes, Astral Masters, LOK Soul Reaver, Moedan, G-Police, Ace of Spades, sPlan7, TurboTax 2012 Налажена работа приложений: SourceInsight, Lingoes, sPlan 7.0, .NET Framework, VB6, Enterprise Architect, Word 2003, Yarmap, Steam, Rosetta Stone 4.5.5, Adobe Reader XI .

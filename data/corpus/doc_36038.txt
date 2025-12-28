@@ -1,0 +1,3 @@
+Игры Counter-Strike Source, Psychonauts, Closure и Shank 2 доступны в Steam для Linux
+
+Компания Valve продолжила публикацию сборок своих классических игровых приложений для Linux, вслед за Team Fortress 2, Half-Life и Counter-Strike 1.6 началось распространение Linux-версии 3D-шутера Counter-Strike Source, разработанного в 2004 году. Игра доступна для загрузки через Linux-версию клиента Steam. Тем временем, число доступных в каталоге Steam игр для Linux за месяц увеличилось с 36 до 46. Дополнение: Следом за Counter-Strike Source в Steam для Linux появилась возможность установки Linux-версий игр Psychonauts, Closure и Shank 2.

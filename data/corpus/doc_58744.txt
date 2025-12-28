@@ -1,0 +1,3 @@
+GNOME Shell и Mutter завершили переход на GTK4
+
+Пользовательская оболочка GNOME Shell и композитный менеджер Mutter полностью переведены на использование библиотеки GTK4 и избавились от жёсткой зависимости от GTK3. Кроме того, зависимость gnome-desktop-3.0 заменена на gnome-desktop-4 и gnome-bg-4, а libnma на libnma4. В целом GNOME пока остаётся привязан к GTK3, так как не все приложения и библиотеки портированы на GTK4. Например, на GTK3 пока остаются WebKit, libpeas, libibus, просмотрщик документов Evince, видеоплеер Totem, просмотрщик изображений Eog, Boxes, Connections, Disks, Simple-scan, File-roller, Photos и System Monitor.

@@ -1,0 +1,3 @@
+Qualcomm и Fujitsu вошли в состав организации Symbian Foundation
+
+В состав управляющего совета организации Symbian Foundation, курирующей разработку открытого варианта мобильной операционной системы Symbian, вошли компании Qualcomm и Fujitsu, которые намерены активно участвовать в разработке платформы Symbian и ее адаптации для новых типов устройств. Кроме Qualcomm и Fujitsu, в состав Symbian Foundation входят такие компании, как AT&T, Vodafone, NTT Docomo, ST Microelectronics, Texas Instruments, Samsung, Sony Ericsson и Nokia. Кроме того можно отметить два других события: небольшое интервью с директором Symbian Foundation и открытие сайта Ideas.SYMBIAN.org, на котором организован сбор идей по улучшению проекта и разработке новых приложений.

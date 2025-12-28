@@ -1,0 +1,3 @@
+Сравнение работы в Linux двух современных видеокарт Nvidia и ATI
+
+"ATI vs. NVIDIA on Linux - the showdown" - сравнение производительности и качества поддержки в Linux двух современных видеокарт Nvidia и ATI: Inno3D GeForce GTX 260 OC 896 MB и ATI PowerColor HD 4870 1GB PCS+. Тестирование производилось в Ubuntu Linux 8.10 (AMD64) с драйверами NVIDIA 180.37 и Catalyst 9.4 pre-release (8.600).

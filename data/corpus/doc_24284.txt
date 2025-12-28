@@ -1,0 +1,3 @@
+Вышла LiveDVD редакция Linux дистрибутива Bluewhite64 13.0
+
+Вышла LiveDVD редакция Linux дистрибутива Bluewhite64 13.0, являющегося неофициальной 64-разрядной сборкой Slackware 13. Bluewhite64 отличается переработанным и упрощенным процессом установки и интеграцией системы настройки "ALICE" (Advanced Linux Installation and Administration Environment) из DarkStar Linux. LiveDVD имеет размер 2 Гб и содержит возможность использования в качестве десктоп-окружений KDE 4.3.2 или Xfce 4.6.1. Из программ присутствуют: Linux ядро 2.6.31.5, Firefox 3.5.5, Seamonkey 2.0 (в комплекте Flash и 64-bit Java плагины), Thunderbird, K-mail, OpenOffice 3.1.1, Blender, Gambas, Kmymoney2, Scribus, Wine и т.д.

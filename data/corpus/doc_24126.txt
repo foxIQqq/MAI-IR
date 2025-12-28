@@ -1,0 +1,3 @@
+Сравнение производительности Fedora 12-RC и Ubuntu 9.10
+
+Опубликованы результаты сравнения производительности кандидата в релизы Fedora 12 и релиза Ubuntu 9.10. В 6 тестах (C-Ray, LAME MP3, FFmpeg, GraphicsMagick, MAFFT, John The Ripper) обе системы продемонстрировали примерно одинаковое быстродействие. Ubuntu на 8% опередил Fedora в тестах производительности дисковой подсистемы IOzone (74MB/s против 68MB/s) и на 29% в дисковом тесте PostMark. Fedora обогнал Ubuntu на 5% в тесте NASA NAS Parallel Benchmark, на 16% в тесте PostgreSQL pgbench, на 20% в OpenGL тесте игры Warsow и продемонстрировал в два раза превышающий FPS в игре World of Padman.

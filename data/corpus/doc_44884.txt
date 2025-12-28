@@ -1,0 +1,3 @@
+Рейтинг языков программирования от RedMonk
+
+Аналитическая компания RedMonk опубликовала собственный рейтинг языков программирования, построенный на основе оценки сочетания популярности на GitHub c активностью обсуждений на Stack Overflow. В отличие от недавно представленный рейтингов IEEE Spectrum и TIOBE лидерами списка RedMonk являются JavaScript, Java, PHP и Python (8, 2, 7 и 3 места в рейтинге IEEE Spectrum). Язык Си, победитель рейтинга IEEE Spectrum, находится в рейтинге RedMonk на 9 месте, С++ занимает 4 место, R - 12 (вытеснил Perl на 13 место). Рейтинг RedMonk: JavaScript Java PHP Python C#, C++ Ruby CSS C Objective-C Shell R Perl Scala Go Haskell Swift Matlab Visual Basic Clojure

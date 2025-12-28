@@ -1,0 +1,3 @@
+Выпуск Wine 1.9.12
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.9.12. С момента выпуска версии 1.9.11 было закрыто 20 отчётов об ошибках. Наиболее важные изменения: В режим рабочего стола добавлена начальная версия панели задач; Обновлён движок Mono; В Direct3D расширена поддержка шейдеров Shader Model 4; В RichEdit улучшена поддержка metafile; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Dance eJay Demo 7, Dragon Age 2, Lemmings Revolution, Lego Mindstorms EV3 Home Edition, Trainz: A New Era, Sega Genesis & Mega Drive, DVDFab 9.2.4.4, Splinter Cell: Blacklist, Python 3.5.1.

@@ -1,0 +1,3 @@
+Третий бета-выпуск FreeBSD 11.2
+
+Сформирован третий бета-выпуск FreeBSD 11.2. Выпуск FreeBSD 11.2-BETA3 доступен для архитектур amd64, i386, powerpc, powerpc64, sparc64, aarch64 и armv6 (BEAGLEBONE, CUBIEBOARD, CUBIEBOARD2, CUBOX-HUMMINGBOARD, RPI-B, RPI2, PANDABOARD, WANDBOARD). Дополнительно подготовлены образы для систем виртуализации (QCOW2, VHD, VMDK, raw) и облачных окружений Amazon EC2. Релиз FreeBSD 11.2 запланирован на 27 июня. По сравнению со вторым бета-выпуском во FreeBSD 11.2 представлены следующие изменения: В утилиту krping добавлена возможность установки типа сервиса для исходящих соединений RDMA; Обновлены компоненты, связанные с LLVM; Решена проблема с загрузкой на системах sparc64; В ipfw возобновлена поддержка sysctl net.inet.ip.fw.dyn_keep_states.

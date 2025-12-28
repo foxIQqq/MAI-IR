@@ -1,0 +1,3 @@
+Опубликованы видеозаписи докладов с конференции Embedded Linux Conference 2010
+
+Опубликованы видеозаписи докладов c конференции Embedded Linux Conference 2010, посвященной встраиваемым решениям на базе Linux. В частности, на конференции выступили с докладами технического характера работники компаний Linaro, Texas Instruments, Sony, Intel, ARM, Samsung, Mentor Graphics, Nokia, Toshiba, Wind River, а также разработчики таких проектов, как OpenJDK, Android, Video4linux, Meego, Debian, Yaffs, Xen, PulseAudio, BlueZ, OpenBSC. Многие доклады носят практический характер, например, рассказано о портировании классических драйверов для работы в пространстве пользователя или о адаптации инсталлятора Debian для определенных устройств.

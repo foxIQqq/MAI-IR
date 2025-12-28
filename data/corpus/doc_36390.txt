@@ -1,0 +1,3 @@
+В Steam для Linux появились игры Day of Defeat, Day of Defeat: Source и Half-Life 2: Deathmatch
+
+Компания Valve опубликовала Linux-версии игр "Day of Defeat" и "Day of Defeat: Source". Игры доступны для загрузки через клиент Steam для Linux и имеют статус бета-версий. Тем временем, общее число доступных в каталоге Steam игр для Linux за месяц увеличилось с 58 до 79. Дополнение: в Steam также появилась Linux-версия игры "Half-Life 2: Deathmatch".

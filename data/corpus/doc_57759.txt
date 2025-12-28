@@ -1,0 +1,3 @@
+Выпуск Wine 7.17
+
+Состоялся экспериментальный выпуск открытой реализации WinAPI - Wine 7.17. С момента выпуска версии 7.16 было закрыто 18 отчётов об ошибках и внесено 228 изменений. Наиболее важные изменения: В DirectWrite добавлена поддержка верхних диапазонов кодов (плоскостей) Unicode. В драйвере Vulkan началась реализация поддержки WoW64, прослойки для запуска 32-разрядных программ в 64-разрядной Windows. Закрыты отчёты об ошибках, связанные с работой игр: Endless Online, Wiggles, Earth 2150, Summoner, Battle Realms: Zen Edition, Riot Vanguard, Liar-soft Visual Novel, BioShock, Wizard101, Construction Set Extender. Закрыты отчёты об ошибках, связанные с работой приложений: Visual Studio Community 2022, Ice Cream Calculator, foobar2000, msys2, 7-Zip, WinRAR.

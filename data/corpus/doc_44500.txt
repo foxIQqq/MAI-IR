@@ -1,0 +1,3 @@
+Выпуск Wine 1.9.11
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.9.11. С момента выпуска версии 1.9.10 был закрыт 21 отчёт об ошибках. Наиболее важные изменения: В WinInet улучшена поддержка длинных URL; Различные улучшения в поддержке Direct3D 11; В DirectSound добавлена поддержка преобразования 5.1 surround в стерео (downmixing); Внесены косметические изменения в режим рабочего стола; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Safrosoft RoX, Starship Titanic, The Witcher, WBaduk, Thief: Deadly Shadows, SpinTires, Black Mirror 3, Cisco Jabber 11.6, Autodesk 123D Design, BitTorrent Sync.

@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.25
+
+Вышел очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.25. С момента выпуска версии 1.7.24 было закрыто 35 отчётов об ошибках. Наиболее важные изменения: Реализована библиотека для организации захвата сетевых пакетов; Добавлены новые функции DirectWrite; Улучшена поддержка HTML-таблиц; Добавлены дополнительные математические функции VBScript; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Medieval total war, Space Empires V 1.44, Skype 3.5, Creative ZENcast Organizer, Thief: Deadly Shadows, JFlothows Wuerfe, DVDDecrypter 3.5.4.0, KeePass 1.09, Bonzai3D, OriginPro 8.0, World of Warcraft, Mario Forever 5.0.1, Microshop 2.0, Project I.G.I, Adobe Creative Cloud.

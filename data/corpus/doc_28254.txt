@@ -1,0 +1,3 @@
+В конце октября в Киеве состоится конференция PyCon
+
+23-24 октября в Киеве будет проходить конференция разработчиков на языке Python - PyCon Ukraine. Ожидается много интересных людей: Armin Ronacher (автор Jinja, Werkzeug, Pygments, Flask, Logbook и соавтор нового PEP 444) Andrew Godwin (автор South) Justin Bronn (автор GeoDjango) Arthur Koziel Marcin Szajek (Programa.pl) Maciej Dziardziel (Adwertajzing) Юрий Юревич Михаил Кашкин Стоимость участия 350 грн (примерно $44, или 1 367 руб.). Регистрация на сайте на ua.pycon.org. Основным языком докладов будет английский, но, безусловно, никто не запретит сделать интересный доклад и на русском.

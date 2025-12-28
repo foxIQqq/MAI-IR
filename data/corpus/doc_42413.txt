@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.45
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.45. С момента выпуска версии 1.7.44 были закрыты 49 отчётов об ошибках. Наиболее важные изменения: Улучшена поддержка отладки на 64-разрядных сборках OS X; Продолжена реализация элементов DirectWrite; Разнообразные исправления в интерфейсах RichEdit; Начальная реализация старого C++ runtime MSVCIRT; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Utopia, Gothic 2, Adobe Acrobat Pro 6 & 7, GTA: San Andreas, Street Fighter 4, Dameware NTutilities, Outlook Express, Fallout 3, Gridrunner Revolution, Starcraft 2, Guild Wars, RaidCall 7.2.x, Simon the sorcerer 5, MX Simulator.

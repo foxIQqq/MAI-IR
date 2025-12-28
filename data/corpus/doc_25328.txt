@@ -1,0 +1,3 @@
+18 номер электронного журнала GNOME Journal
+
+Доступен 18 номер электронного журнала для пользователей и разработчиков GNOME. В номере: Writing Multimedia Applications in Vala - введение в разработку мультимедиа приложений на языке Vala; Pitivi - обзор состояния разработки системы нелинейного видеомонтажа PiTiVi; What's new in Banshee - рассказ о новшествах 1.5.3 версии медиа плеера Banshee; Boston Summit Recap - обзор докладов со встречи разработчиков GNOME в Бостоне; An interview with Jonathan Thomas - интервью с Jonathan Thomas, создателем видеоредактора OpenShot.

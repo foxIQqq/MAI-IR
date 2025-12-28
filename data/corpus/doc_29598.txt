@@ -1,0 +1,3 @@
+Релиз Linux-дистрибутива PureOS 3.0
+
+Представлен релиз Linux-дистрибутива PureOS 3.0, построенного на пакетной базе Debian "testing" c некоторыми пакетами из ветки "unstable". Дистрибутив поддерживает как работу в Live-режиме, так и установку на жесткий диск. Размер iso-образа 683 Мб. В состав дистрибутива включены: Linux-ядро 2.6.37, Gnome 2.30 (с панелью Docky), офисный пакет LibreOffice 3.3.0, web-браузер Iceweasel 3.6.13, почтовый клиент Icedove 3.0.11, медиаплеер Songbird 1.8.0, VLC 1.1.3, Network-manager 0.8.1, Transmission 2.0.3, FileZilla 3.3.3, GParted 0.7, Brasero, GIMP, Evince, Simple Scan, Eye of Gnome.

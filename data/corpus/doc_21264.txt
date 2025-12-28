@@ -1,0 +1,3 @@
+Запуск PHP скриптов в Google App Engine
+
+"Run PHP on the Google App Engine" - запуск PHP скриптов в Google App Engine, используя Quercus - интерпретатор языка PHP, написанный целиком на Java. Что касается производительности реализации PHP на Java, то при тестировании Mediawiki и Drupal, Quercus оказался быстрее стандартного mod_php в 4 раза, продемонстрировав скорость близкую к mod_php с включенным акселератором APC.

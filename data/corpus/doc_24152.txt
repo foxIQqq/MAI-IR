@@ -1,0 +1,3 @@
+Язык Perl еще далек от забвения, несмотря на заявления "аналитиков"
+
+В сети все больше появляется пророчеств о скором забвении языка Perl и выдвижения таких языков как Python, PHP и Ruby в качестве современных решений. Чтобы опровергнуть данное мнение, ресурс Royal Pingdom опубликовал подборку крупнейших web-проектов, использующих для обеспечения своей работы язык Perl: Amazon.com, Livejournal.com, IMDB.com, Slashdot.org, Typepad.com, Guardian.co.uk, Salon.com, Ticketmaster.com, theregister.co.uk, BBC.co.uk. Из популярных инструментариев на Perl приводятся Bugzilla, Catalyst, Mason, SpamAssassin, Movable Type.

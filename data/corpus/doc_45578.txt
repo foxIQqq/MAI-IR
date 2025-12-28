@@ -1,0 +1,3 @@
+В драйвере Freedreno реализована поддержка GPU Adreno A5XX
+
+Разработчики Freedreno, свободного драйвера для графической подсистемы чипов Qualcomm, сообщили о реализации поддержки пятого поколения GPU Adreno (A5XX), задействованных в SoC Snapdragon 820 и 821 и поддерживающих OpenGL ES 3.2, Vulkan 1.0 и OpenCL 2.0. Данные GPU используются в таких смартфонах, как Xiaomi Mi5, LG G5, Lenovo Zuk Z2/Z2Pro, One Plus 3, HTC 10 и Sony Xperia X/ZX, с видеоподсистемами которых до сих пор можно было взаимодействовать только через проприетарные драйверы. Кроме Mesa поддержка GPU Adreno A5XX также добавлена в DRM-драйвер (Direct Rendering Manager), работающий на уровне ядра Linux.

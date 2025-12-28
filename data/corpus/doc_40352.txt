@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.24
+
+Вышел очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.24. С момента выпуска версии 1.7.23 было закрыто 44 отчёта об ошибках. Наиболее важные изменения: Начало реализации классов DirectWrite; Добавлена dll с прослойкой для библиотеки захвата пакетов; Серия улучшений, связанных с поддержкой шифрования; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Archlord Episode 3, Anarchy Online, Letters from Nowhere 2, Magicka, Assassin's Creed Brotherhood v1.03, Jammer 6, Fallout 3, World of Warcraft, DYMO Stamps, Excel 2007, LEGO Digital Designer 4.3.6, Shogun: Total War, Office 2013, World Of Tanks,

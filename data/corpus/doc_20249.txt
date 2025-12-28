@@ -1,0 +1,3 @@
+В JavaFX 1.1 появилась поддержка мобильных устройств
+
+Компания Sun Microsystems выпустила релиз конкурирующей с Adobe Flash и Microsoft Silverlight технологии JavaFX 1.1. В новой версии представлена поддержка разработки интерактивных приложений для мобильных устройств, работающая поверх стека Java Platform Micro Edition (Java ME). О поддержке мобильной редакции JavaFX уже объявили такие компании, как Sony Ericsson, LG, Orange, Sprint, Cynergy и MobiTV.

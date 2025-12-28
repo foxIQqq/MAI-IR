@@ -1,0 +1,3 @@
+Полезные open source программы для Asus EeePC
+
+"24 Open Source Apps for the ASUS Netbook" - обзор полезных open source приложений для Asus EeePC: драйверы acpi4asus, модуль Linux ядра для поддержки USB-модемов Conexant DGC, программа для чтения текстов FBReader, KMyMoney (учет личных финансов), FreeMind (составление интеллект-карт), специальная сборка ядра для Ubuntu, eeetray, AsusLauncher Advanced Editor, jEeeConfig, Eee Applet, KysRun.

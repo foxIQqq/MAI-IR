@@ -1,0 +1,3 @@
+Компания CollabNet выпустила преемника SourceForge Enterprise - TeamForge 5.2
+
+Компания CollabNet выпустила пакет для организации групповой работы TeamForge 5.2, основанный на технологиях SourceForge.net. Права на разработку SourceForge Enterprise Edition были куплены CollabNet два года назад у компании VA Software. Бесплатно распространяется только 30-дневная пробная версия TeamForge 5.2, оформленная в виде образа виртуальной машины для VMware. Компания CollabNet известна прежде всего созданием и поддержкой системы контроля версий Subversion.

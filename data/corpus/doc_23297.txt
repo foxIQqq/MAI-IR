@@ -1,0 +1,3 @@
+Сравнение производительности компиляторов GCC и LLVM-GCC
+
+Опубликованы результаты сравнения производительности выполнения приложений, после их сборки компиляторами GCC и LLVM-GCC. GCC оказался немного быстрее в 5 тестах (LAME MP3, dcraw, Dhrystone 2, Crafty chess, Tachyon ray-tracing), а LLVM-GCC в 2 (MAFFT, C-Ray). Значительное преимущество GCC продемонстрировал в тесте John The Ripper, обогнав LLVM-GCC на 40%, но LLVM-GCC опередил GCC на 30% в тесте OpenSSL.

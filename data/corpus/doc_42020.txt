@@ -1,0 +1,3 @@
+Вышел текстовый редактор GNU Emacs 24.5
+
+Доступен релиз текстового редактора GNU Emacs 24.5. В новой версии отмечается в основном накопившиеся исправления ошибок. Увеличен размер буфера истории изменений (history-length теперь равен 100). Добавлены новые опции "erc-rename-buffers", "erc-my-nick-prefix-face' и "erc-nick-prefix-face'. Объявлена устаревшей переменная redisplay-dont-pause и прекращено использование значений browse-url-firefox-startup-arguments. Переведены в категорию устаревших пакеты cc-compat.el, crisp.el, tpu-edt.el, ws-mode.el, vi.el и vip.el (следует использовать M-x viper). В "call-process-shell-command" и "process-file-shell-command" больше не обрабатываются значения "&rest args".

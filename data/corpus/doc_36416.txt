@@ -1,0 +1,3 @@
+Вышел мартовский номер журнала "BSD Magazine"
+
+Доступен мартовский номер журнала "BSD Magazine" (PDF, 7 Мб). В номере (журнал на английском языке): Настройка системы для анализа дампов краха ядра (Crash Dumps); Обзор MaheshaBSD Server, серверной сборки FreeBSD с преднастроенными MySQL и WordPress; Программирование во FreeBSD. Часть 3, встраивание CSS и Javascript на страницы; Усиление безопасности FreeBSD при помощи TrustedBSD и MAC: настройка модулей mac_ifoff, mac_portacl и MAC LOMAC.

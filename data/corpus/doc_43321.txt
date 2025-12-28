@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.55
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.55. С момента выпуска версии 1.7.54 было закрыто 76 отчётов об ошибках. Наиболее важные изменения: Добавлен драйвер для звукового сервера PulseAudio; Внесена порция исправлений, решающих проблемы с поддержкой Microsoft Office 2013; Расширена реализация Web Services DLL; Дополнительные правки для свежей версии C runtime; Улучшение генерации сборочных файлов (Makefile); Закрыты отчёты об ошибках, связанные с работой игр и приложений: Adobe Premiere 6, Cubis Gold 2, ArcSoft PhotoStudio 5.5, PowerDVD 10, MyPhoneExplorer 1.8.4, BBC iPlayer, FarManager v3, Sacred 2 Gold, Picasa 3.9, Black Mirror 3, FreshDiagnose 8.67, Sades 7.1, Emerge Desktop 6.1.3.

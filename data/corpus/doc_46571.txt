@@ -1,0 +1,3 @@
+Новая версия пакета интеграции SalesPlatform Vtiger CRM с Asterisk и FreePBX
+
+Российский разработчик свободной CRM-системы SalesPlatform Vtiger CRM опубликовал новую версию компонента SalesPlatform Vtiger Asterisk/FreePBX Connector 1.4 для интеграции с серверами IP-телефонии Asterisk и FreePBX. В релизе добавлена поддержка всех последних версий Asterisk, использующих протокол интерфейса управления AMI v2, который используется начиная с Asterisk 12. Также добавлена поддержка интеграции с CRM по защищенному HTTPS-соединению. Исходные тексты проекта распространяются под лицензией Mozilla Public License 1.0 (MPL).

@@ -1,0 +1,3 @@
+Кандидат в релизы Slackware Linux 14.2
+
+Доступен кандидат в релизы дистрибутива Slackware 14.2. Для загрузки подготовлены DVD-сборки для архитектур i586 и x86_64. По сравнению со вторым бета-выпуском до версии 4.4.6 обновлено ядро Linux, включены новые выпуски glibc 2.23, GCC 5.3.0, xorg-server 1.18.2, mesa 11.1.2, wicd 1.7.4, xf86-video-amdgpu 1.0.1, bluez 5.37, btrfs-progs 4.4.1, tcl/tk 8.6.5, openssl 1.0.2g, iptables 1.6.0, binutils 2.26, calligra 2.9.11, MPlayer 1.2, perl-5.22.1.

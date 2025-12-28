@@ -1,0 +1,3 @@
+Перевод 33 выпуска PDF-журнала пользователей Ubuntu - Full Circle Magazine
+
+Вышел перевод 33-го выпуска Full Circle Magazine, электронного журнала для пользователей Ubuntu Linux. В номере (PDF, 6.6 Мб): How-To: Программа на Python — часть 7 How-To: Создай медиацентр с помощью Ubuntu, Revo и Boxee How-To: Идеальный сервер — часть 3 Моя история: Использование Ubuntu в образовании и почему я использую Linux Обзор: Exaile Интервью с MOTU — Didier Roche Топ 5: Программы для синхронизации данных Эксклюзивный материал FCM-RU Игры Ubuntu, Ubuntu Women и многое другое

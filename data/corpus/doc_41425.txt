@@ -1,0 +1,3 @@
+Сформированы установочные образы HardenedBSD 11-CURRENT
+
+Проект HardenedBSD, занимающийся улучшением механизмов защиты FreeBSD, объявил о формировании iso-образов (632Мб, CD, USB Flash), позволяющих оценить в работе самые свежие наработки проекта без необходимости клонирования репозитория и ручной сборки системы. Из развиваемых проектом HardenedBSD улучшений, можно отметить реализации ASLR (Address Space Layout Randomization), SEGVGUARD, PAGEEXEC, secfw, SMAP, chacha20, arc4random, более защищённых вариантов mprotect, PTrace, mmap(MAP_32BIT) и procfs/linprocfs.

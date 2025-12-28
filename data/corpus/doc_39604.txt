@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.17
+
+Вышел очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.17. С момента выпуска версии 1.7.16 было закрыто 89 отчётов об ошибках. Наиболее важные изменения: Улучшена реализация планировщика запуска задач по расписанию (Task Scheduler); За счёт совместного использования исходных файлов улучшена совместимость компонентов C runtime; Налажена поддержка джойстика в OS X; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Ogre3D, Counter-Strike 1.6, Team Fortress 2, Little Fighter 2, Half-Life 2, Tropico 3, Artweaver, Microsoft Money 2003, Age of Empires, Mafia 2, Launch Battlefield 2, FutureTax 2010-2012, Brink, Astral Masters 1.9, Magicka, UK Truck Simulator, Borderlands 2, Oblivion.

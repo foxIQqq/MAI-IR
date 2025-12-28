@@ -1,0 +1,3 @@
+Набор патчей для SQLite
+
+Несколько полезных патчей и заметок, касающихся SQLite: "Использование таблиц из приаттаченных баз в SQLite view"; "Две цифры номера года в SQLite функции strftime"; "Расширение UNDO для СУБД SQLite"; "Счетчики в SQLite"; "Тестирование SQLite 3.6.17-mobigroup.2 на больших таблицах"; "sqlite в ГИС" (часть 1, часть 2). Загрузить пакет для Debian GNU/Linux Lenny с патчами, используемыми в данной сборке, можно из репозитория: deb http://mobigroup.ru/debian/ lenny main contrib non-free deb-src http://mobigroup.ru/debian/ lenny main contrib non-free

@@ -1,0 +1,3 @@
+К Linux Foundation присоединились компании Linaro, Daynix, BearingPoint и Systena
+
+Некоммерческая организация Linux Foundation, курирующая широкий спектр работ, связанных с развитием Linux, объявила о включении в свои ряды новых участников: Linaro Limited, BearingPoint GmbH, Daynix и Systena. Наиболее известным из данного списка является организация Linaro Limited, в которой около 200 инженеров работает над оптимизацией ядра Linux, GCC и других открытых проектов для архитектуры ARM.

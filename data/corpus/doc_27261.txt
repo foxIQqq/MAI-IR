@@ -1,0 +1,3 @@
+Перевод 36 выпуска PDF-журнала пользователей Ubuntu - Full Circle Magazine
+
+Вышел перевод 36-го выпуска Full Circle Magazine, электронного журнала для пользователей Ubuntu Linux. В номере (PDF, 8.1 Мб): How-TO: Программа на Python - часть 10 How-TO:Цифровая ретушь фотографий в GIMP - часть 3 How-TO: Используйте Google эффективно Книжный обзор - "Automating Linux and Unix System Administration" Интервью с MOTU - Jo Shields ТОП 5 — приложения для сканирования

@@ -1,0 +1,3 @@
+Сравнение восьми IDE для разработки на языке PHP
+
+В статье "Eight PHP power tools" представлены результаты сравнения восьми интегрированных сред для разработки на языке PHP: ActiveState Komodo IDE, CodeLobster PHP Edition, Eclipse PHP Development Tools (PDT), MPSoftware phpDesigner, NetBeans IDE for PHP, NuSphere PhpED, WaterProof PHPEdit и Zend Studio. Наивысшие оценки получили Eclipse PHP Development Tools 2.1.2 и Zend Studio 7.0.

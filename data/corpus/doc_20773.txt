@@ -1,0 +1,3 @@
+Вышел дистрибутив OpenGEU 8.10, построенный на основе Enlightenment E17
+
+"OpenGEU 8.10 Live CD released" - вышел LiveCD Linux дистрибутив OpenGEU 8.10, построенный на основе Ubuntu 8.10, с интегрированным графическим окружением Enlightenment E17 и оригинальным комплектом приложений для настройки. Например, конфигуратор e17-settings-manager, менеджер тем Geutheme, система автомонтирования Places, приложение для управления громкостью Mixer, система для проверки обновлений OpenGEU Upgrade Manager, менеджер меню Configuration Menu, оконный менеджер с поддержкой 3D эффектов Echomorph. В качестве файлового менеджера используется Thunar. Из пользовательских приложений в состав включены abiword, gnumeric, gimp, pidgin, firefox, inkscape, mplayer, xine.

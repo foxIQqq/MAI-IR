@@ -1,0 +1,3 @@
+Выпуск Wine 1.9.23
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.9.23. С момента выпуска версии 1.9.22 было закрыто 32 отчёта об ошибках. Наиболее важные изменения: В Direct2D обеспечена поддержка цветных шрифтов; В Direct3D расширено число поддерживаемых цветовых форматов; Решены проблемы с деинсталляцией в MSI; Для macOS реализована поддержка шины HID; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Myst V: End of Ages, Superbase, iMule, Temper, MDDClone, Sonic heroes 1.0, Cisco IP Communicator 7.0.4.0, Smart Cutter 1.9.4, Xanadu NEXT, Startopia, Colin McRae Rally 2005, Legend of Grimrock 2, Titan Souls Demo, Final Fantasy XI, Insane 2,

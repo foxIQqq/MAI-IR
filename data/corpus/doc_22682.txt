@@ -1,0 +1,3 @@
+Обзоры новых веяний в разработке KDE с конференции Akademy 2009
+
+Опубликованы технические документы с конференции разработчиков KDE, описывающие некоторые экспериментальные и инновационные решения: Semantic Context Menus in KDE. The Unusual Suspect: Layouts for sleeker KDE applications. Mobile Broadband: An Analysis and Improvement of Client-Side Connections to Mobile-Operators in KDE. Plasma and Netbooks: A proposal for improving Desktop interfaces on netbooks. Benchmarking of software for mobile devices. Client alternatives in schools -- going forward.

@@ -1,0 +1,3 @@
+В семи из десяти самых популярных игр в Steam обеспечена поддержка Linux
+
+Любители компьютерных игр обратили внимание, что из десяти игр, лидирующих по числу игроков в Steam, семь игр уже доступны в версиях для платформы Linux. В частности, в GNU/Linux работает Dota 2, Team Fortress 2, Sid Meier's Civilization V, Garry's Mod, Football Manager 2014, Counter-Strike и Rust. Пока не выпущены Linux-версии игр Counter-Strike: Global Offensive, The Elder Scrolls V: Skyrim и Warframe. Общее число игр для Linux, доступных в каталоге Steam, доведено до 528, при том, что в декабре 2013 года Linux-игр в Steam было 250, а в начале лета 2013 года около сотни.

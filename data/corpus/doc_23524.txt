@@ -1,0 +1,3 @@
+Вышел Ultimate Edition 2.3 Gamers - вариант Ubuntu для игроков
+
+Вышел релиз специализированной LiveDVD сборки Linux дистрибутива Ultimate Edition 2.3, основанный на Ubuntu 9.04 и снабженного подборкой предустановленных пакетов с популярными игровыми приложениями. Размер загрузочного iso-образа - 3.8 Гб. Из игр присутствуют: Airstrike, Aisleriot Solitaire, Barrage, Blackjack, Boswars, BzFlag, Gbrainy, Glest, Gridwars, Lango, Kslotski, Nexuiz, Nibbles, Nimuh, Open Arena, Sauerbraten, Super Tux 2, Tali, Tremulous, Vetris, Warsow и т.д.

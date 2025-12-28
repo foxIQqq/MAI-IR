@@ -1,0 +1,3 @@
+Стабильный релиз Wine 1.6.1
+
+Спустя четыре месяца с момента стабильного релиза Wine 1.6 увидел свет первый корректирующий релиз Wine 1.6.1, в который включены только обновления файлов с переводами и исправления 58 серьезных ошибок, как правило приводивших к краху программ или некорректному поведению важных функций. Новые возможности разрабатываются в рамках ветки 1.7.x. В частности, исправлены ошибки, проявляющиеся при работе программ и игр: Powerbullet Presenter 1.44, Neverwinter Nights 2, Excel 2010, Process Hacker 2.x, MeGUI 2112, Torchlight 2, iTunes 7, Garena, Spin Tires, Pando, Altium Designer 10, League of Legends, Ur-Quan Masters, .NET 3.x/4.x WPF, Everquest, Jagged Alliance 2, qq 2012, LINE 3.2.0.76, EasiSlides v4.

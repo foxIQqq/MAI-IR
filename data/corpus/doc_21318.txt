@@ -1,0 +1,3 @@
+Intel вошла в состав консорциума OSADL, развивающего real-time Linux
+
+Компания Intel вошла в состав объединения OSADL (Open Source Automation Development Lab), развивающего решения на базе Linux и открытого ПО для промышленной встраиваемой техники. В частности, OSADL ведет разработку известного проекта Realtime Linux и поддерживает создание "Realtime-Preempt" патчей для Linux ядра (-rt ветка). Кроме Intel, о присоединении к OSADL заявили две компании: Sysgo, известная созданием платформы виртуализации реального времени PikeOS и Linux дистрибутива ELinOS, и SERCOS, занимающаяся развитием real-time Ethernet стандарта SERCOS III.

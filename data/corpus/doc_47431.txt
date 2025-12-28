@@ -1,0 +1,3 @@
+Выпуск http-сервера lighttpd 1.4.46
+
+Доступен релиз легковесного http-сервера lighttpd 1.4.46. В состав новой версии включены новые модули: mod_openssl, в который вынесен весь код, связанный с OpenSSL; mod_vhostdb* (dbi, mysql, pgsql, ldap) для хранения базы виртуальных хостов в СУБД или LDAP; mod_wstunnel для туннелирования websocket в другие протоколы. В mod_extforward в добавлена поддержка протокола PROXY для HAProxy и HTTP-расширения Forwarded (RFC-7239). В mod_proxy и mod_cgi добавлена поддержка обновления соединения до WebSocket ("Upgrade: websocket"). В mod_setenv добавлены директивы для переопределения или удаления HTTP-заголовков.

@@ -1,0 +1,3 @@
+Сравнение производительности OpenSolaris и Ubuntu на субноутбуке
+
+"Netbook Performance: Ubuntu vs. OpenSolaris" - сравнение производительности OpenSolaris 2009.06 и Ubuntu 9.04 на субноутбуке Dell Inspiron Mini 9. В 7 тестах были продемонстрированы идентичные результаты, в 5 (Java SciMark 2.0, Sudokut, dcraw, Threaded I/O Tester) победа была на стороне Ubuntu, а в 4 (Sunflow Rendering System, GnuPG, Java 2D) - на стороне OpenSolaris.

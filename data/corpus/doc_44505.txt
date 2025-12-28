@@ -1,0 +1,3 @@
+В Mesa включена поддержка OpenGL 4.3 для Nouveau NVC0, RadeonSI и Intel i965
+
+В поставляемых в составе Mesa драйверах Nouveau (nvc0, видеокарты NVIDIA на базе GPU Fermi и Kepler - GeForce 400/500/600) и RadeonSI уровень поддержки OpenGL официально поднят до версии 4.3. Кроме того, поддержка OpenGL 4.3 включена в драйвере i965 для чипов Intel Gen8+. Для драйвера i965 также подготовлены недостающие патчи с поддержкой расширений GL_ARB_vertex_attrib_64bit и GL_ARB_gpu_shader_fp64, отсутствие которых мешало заявить о совместимости с OpenGL 4.0 и 4.1.

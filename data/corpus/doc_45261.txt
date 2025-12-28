@@ -1,0 +1,3 @@
+Выпуск Wine 1.9.20
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.9.20. С момента выпуска версии 1.9.19 было закрыто 18 отчётов об ошибках. Наиболее важные изменения: Новая реализация API для работы с буфером обмена; Средства для обработки сообщений в WebServices; Серия дополнительных библиотек из набора API Set; Закрыты отчёты об ошибках, связанные с работой игр и приложений: World of Tanks, ComboFix, Age of Mythology: Extended Edition, GOG Galaxy, MeterBasic, Ellisys Visual USB, Marvelous Designer 6, Sony Xperia Companion.

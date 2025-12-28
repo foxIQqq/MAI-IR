@@ -1,0 +1,3 @@
+Вышел Ultimate Edition 2.6 Gamers - вариант Ubuntu для игроков
+
+Вышел релиз специализированной LiveDVD-сборки Linux дистрибутива Ultimate Edition 2.6, основанной на Ubuntu 10.04 и укомплектованной подборкой предустановленных пакетов с популярными игровыми приложениями. Размер загрузочного iso-образа - 4 Гб. Из игр присутствуют: Urban Terror с дополнительными картами, Aisleriot Solitaire, Atomic Tanks, Battle for Wesnoth, Boswars, Chromium B.S.U., Gbrainy, Glest, Gridwars, Mahjongg, Mines, Neverball, Play on Linux, Quadrapassel, Scorched 3D, Sudoku, Warzone 2100 и т.д

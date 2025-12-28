@@ -1,0 +1,3 @@
+Компания Red Hat выпустила open source альтернативу IBM ILOG и Oracle Haley
+
+Компания Red Hat выпустила систему управления бизнес-правилами (BRMS) JBoss Enterprise Business Rules Management System (BRMS), основанную на сервере приложений JBoss, движке JBoss Drools Rules Engine и web-интерфейсе на базе Guvnor. Программа позиционируется как open source альтернатива проприетарным продуктам IBM ILOG, Oracle Haley и Visual Rules. Расценки на годовую подписку на JBoss Enterprise BRMS начинаются от 20 тыс. долларов.

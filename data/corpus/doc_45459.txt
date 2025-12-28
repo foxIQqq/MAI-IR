@@ -1,0 +1,3 @@
+Началось формирование сборок CyanogenMod 14
+
+Объявлено о начале формирования ночных сборок ветки CyanogenMod 14. В настоящее время в сборки CyanogenMod 14.1, основанные на платформе Android 7.1 (ветка CyanogenMod 13 основана на Android 6), подготовлены для 9 моделей устройств, для которых обеспечена базовая поддержка оборудования. Не все возможности CyanogenMod пока перенесены, например, ещё не реализована поддержка тем оформления. Устройства, для которых доступны сборки CyanogenMod 14: angler (Nexus 6P) bullhead (Nexus 5X) cancro (Xiaomi Mi3w/Mi4) d855 (LG G3) falcon/peregrine/thea/titan (Moto G variants) h811/h815 (LG G4) klte/kltedv/kltespr/klteusc/kltevzw (Samsung Galaxy S5) oneplus3 (OnePlus 3) Z00L/Z00T (Zenphone 2)

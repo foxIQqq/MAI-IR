@@ -1,0 +1,3 @@
+Релиз сервера приложений JBoss AS 6.0
+
+Компания Red Hat представила после двух лет разработки релиз свободного сервера приложений JBoss AS 6.0, в котором реализована совместимость с Java EE 6 и обеспечена встроенная поддержка таких технологий, как CDI (Context and Dependency Injection), JPA 2 (Java Persistence API), Bean Validation, EJB 3.1 (Enterprise Java Beans), JSF 2.0 (Java Server Faces) и Servlets 3.0.

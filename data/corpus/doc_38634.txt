@@ -1,0 +1,3 @@
+Выпуск Bluetooth-стека BlueZ 5.12
+
+Доступен релиз свободного Bluetooth-стека BlueZ 5.12. Наибольшее число изменений связано с развитием компонентов для платформы Android. Поставляемые в BlueZ Bluetooth-стек для Android достиг рабочей поддержки PAN и HID, а также возможности реализации Bluetooth-профилей OPP и PBAP. Кроме того, в новом выпуске добавлена поддержка контроллера PS3 (sixaxis) и поддержка декодирования команд LE Connection Oriented Channel, CSA4 и базовой спецификации Bluetooth 4.1 HC в btmon. Улучшен тестовый набор: реализованы smp-tester и l2test для тестирования LE Security Manager Protocol и LE Connection Oriented Channel, добавлены тесты для AVDTP.

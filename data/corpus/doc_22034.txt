@@ -1,0 +1,3 @@
+Unix исполняется 40 лет. Обзор истории развития
+
+В августе 1969 года Кен Томпсон из Bell Laboratories представил первую версию ОС Unix, созданную на языке ассемблер для миникомпьютера PDP-7. Разработка первого прототипа новой системы заняла всего месяц. В статье "Unix turns 40: The past, present and future of a revolutionary OS" изложены основные этапы становления Unix, в заметке "Timeline: 40 years of Unix" представлена хронология событий, а в материале "On the shoulders of giants: Three Unix movers and shakers" рассказано об основных создателях Unix.

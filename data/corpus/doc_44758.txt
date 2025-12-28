@@ -1,0 +1,3 @@
+Выпуск Wine 1.9.14
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.9.14. С момента выпуска версии 1.9.13 было закрыто 20 отчётов об ошибках. Наиболее важные изменения: В Direct3D расширена поддержка шейдеров Shader Model 5; Улучшена поддержка записи в WebServices; Проведена оптимизация производительности GDI; Прогресс в реализации обособленного потока обработки команд WineD3D; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Kingsoft Office 2012, AveraSell 4.3.8, Shattered Horizon, OPML Editor, Spellforce, COD4, Skype, Warcraft 3, Fallout 4, игры на Unreal Engine 4, Batman: Arkham Origins Blackgate, Guitar Rig 5.

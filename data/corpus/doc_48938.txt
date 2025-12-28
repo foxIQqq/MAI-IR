@@ -1,0 +1,3 @@
+Выпуск Wine 3.12
+
+Состоялся экспериментальный выпуск открытой реализации Win32 API - Wine 3.12. С момента выпуска версии 3.11 было закрыто 40 отчётов об ошибках и внесено 183 изменения. Наиболее важные изменения: Поддержка Unicode обновлена до спецификации Unicode 11.0.0; В панель управления сетью добавлен диалог для настройки соединения через прокси; Откорректирован синтаксис в командном интерпретаторе Cmd.exe; Расширено число глифов в шрифте Wingdings; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Starfleet Academy, Unreal Tournament 3, ProPresenter 4.x, Stranded II, Alien Shooter, Splinter Cell, Heroes of Might & Magic III HD Edition, Duke Nukem Forever, House of Caravan, League of Legends, FrameMaker 8, Muv-Luv.

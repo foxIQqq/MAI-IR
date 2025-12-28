@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.20
+
+Вышел очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.20. С момента выпуска версии 1.7.19 было закрыто 88 отчётов об ошибках. Наиболее важные изменения: Исправления, связанные с работой drag & drop в X11; Реализация дополнительных функций C/C++ runtime; Устранены утечки памяти, выявленные при помощи Valgrind; Серия исправлений, связанных c хранилищем OLE; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Oberon, Rappelz, Voipstunt, Microsoft Office 2007, STALKER, Livestream Procaster, Crysis Warhead 1.1.x, Cain and Abel, rFactor 2, Grand Theft Auto, TaxACT 2012, Virtual DJ v7.4, RPG Maker VX, Borderlands 2, Nikon Message Center 2, Theatre of War 3: Korea, Prince of Persia (2008).

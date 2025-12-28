@@ -1,0 +1,3 @@
+Релиз Linux-дистрибутива PureOS 2.0
+
+Представлен релиз Linux-дистрибутива PureOS 2.0, построенного на пакетной базе Debian testing и поддерживающего как работу в Live-режиме, так и установку на жесткий диск. Размер iso-образа 699 Мб. В поставку включены: Linux ядро 2.6.33 (с патчами Squashfs 3.4 и lzma), KDE 4.3.4, OpenOffice.org 3.2.0, Iceweasel 3.5.8 (Firefox), Icedove 2.0.0.22 (Thunderbird), Songbird 1.4.3, Lightning 0.9, Gimp 2.6.8, Gwenview, Okular, Akregator, FileZilla, qBittorrent, Kopete, Wicd, K3B, VLC, GParted, Krusader.

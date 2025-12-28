@@ -1,0 +1,3 @@
+Второй кандидат в релизы Wine 5.0
+
+Доступен для тестирования второй кандидат в релизы Wine 5.0, открытой реализации Win32 API. Кодовая база находится на стадии заморозки перед релизом, который ожидается в начале января 2020 года. По сравнению с выпуском Wine 5.0-RC1 закрыто 36 отчётов об ошибках и внесено 69 исправлений. Закрыты отчёты об ошибках, связанные с работой игр и приложений: Age of Wonders 2, The Sims 3, StarFisher, Pegasus Mail 4.6, WOLF RPG Editor 2.10, Startopia, Photo Ninja 1.2.5, Super Mario Bros X v1.3.x, Algodoo v2.1.0, Disgen 2016, Christmas Magic, Wavelab 6, Gameforge Client, Logos Bible Software, Epic Games Launcher, IMVU Social Network Client, MTGA Launcher, Batman: Arkham Knight, Mail.ru Game Center.

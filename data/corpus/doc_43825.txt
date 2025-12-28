@@ -1,0 +1,3 @@
+Выпуск Wine 1.9.3
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.9.3. С момента выпуска версии 1.9.2 было закрыто 24 отчёта об ошибках. Наиболее важные изменения: Браузерный движок Gecko обновлён до версии, соответствующей Firefox 44; В JavaScript реализована поддержка JSON; В реализации DirectWrite улучшена поддержка разрывов строк; Поддержка дополнительных средств записи в реализации WebServices; Добавлены дополнительные инструкции Shader Model 4; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Visual Basic 5/6, Arcanum, Yahoo Messenger, BioEdit, Star Wars: The Force Unleashed II, Star Wars: The Old Republic, farcry 3, Poker Night, Starcraft, iNode 3.6, Lego Mindstorms EV3, IDEA v1.7.

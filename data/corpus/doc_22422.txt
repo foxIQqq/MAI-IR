@@ -1,0 +1,3 @@
+Перевод цикла статей по использованию SELinux
+
+Перевод цикла статей "Закручивание гаек в SELinux": Часть 1: пользователи SELinux; Часть 2: PAM SEPermit; Часть 3: Разрешающий режим (Permissive Mode) и разрешающие домены (Permissive Domains). "часть 4: Создание пользовательского домена SELinux", "часть 5: SELinux RBAC", "часть 6: Создание ролей SELinux", "часть 7: su, newrole, sudo и run_init", "часть 8: Unconfined".

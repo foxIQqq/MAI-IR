@@ -1,0 +1,3 @@
+Проект Fedora проведёт чистку пакетов, оставшихся без сопровождения
+
+Разработчики Fedora опубликовали список из 86 пакетов, оставшихся без сопровождения и запланированных для удаления из репозитория после 6 недель неактивности, если для них в ближайшее время не найдётся мэйнтейнер. Среди находящихся в списке пакетов: autotrash, bouml, dnsyo, fasd, hdapsd, jmake, lzma, parprouted, pcapfix, pg_journal, php-ZendFramework, python-ansible-tower-cli, python-cookies, python-kafka, ratproxy, ripe-atlas-tools, scite, tinyca2, tristripper, unp и wifi-radar.

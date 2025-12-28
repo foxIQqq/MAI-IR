@@ -1,0 +1,3 @@
+Проект util-linux-ng переименован в util-linux
+
+Разработчик альтернативного комплекта стандартных низкоуровневых системных утилит util-linux-ng, объявил о принятии решения по переименованию проекта в util-linux, так как util-linux-ng давно уже стал стандартом де факто и используется повсеместно, а старый комплект "util-linux" уже почти 5 лет не развивается. В состав пакета util-linux входят как тесно связанные с Linux-ядром утилиты, так и утилиты общего назначения. Например, в пакете представлены: mount/umount, fdisk, hwclock, cal, blkid, fsck/cfdisk/sfdisk, blockdev, chrt, mkfs, ionice, renice, kill, setsid, login, shutdown, dmesg, lscpu, logger, losetup, setterm, mkswap, swapon, taskset и т.п.

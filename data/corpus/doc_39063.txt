@@ -1,0 +1,3 @@
+К Linux Foundation присоединилось 7 новых компаний, заинтересованных в развитии KVM
+
+Некоммерческая организация Linux Foundation, курирующая широкий спектр работ, связанных с развитием Linux, объявила о включении в свои ряды новых участников: Autonomic Resources, Bloombase, BlueCat Networks, op5, Proxmox Server Solutions GmbH, Scale Computing и 6WIND, специализирующихся на облачных технологиях и развитии сервисов виртуализации на базе гипервизора KVM. В Linux Foundation компании намерены принять участие в работе группы Open Virtualization Alliance (OVA), продвигающей решения на основе KVM.

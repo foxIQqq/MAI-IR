@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.15
+
+Вышел очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.15. С момента выпуска версии 1.7.14 было закрыто 53 отчёта об ошибках. Наиболее важные изменения: Новый сервис планировщика запуска задач по расписанию (Task Scheduler); Поддержка раскручивания исключений (exception unwinding) в VBScript; Приведение в порядок набора регрессионных тестов; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Timeless Time and Expense 3.0, Seagate Crystal Reports 6, F1 2000, F1 Championship Season 2000, Drakensang Dark Eye, Google SketchUp 8, Band-in-a-Box 2012, Quicken 2012, Symantec VIP Access, SolidWorks Explorer 2012, CorelDRAW 12, Microstation 8i, iTunes 7, LabChart Reader 8, Samsung Magician v4.0, CPCE v4.1, CURA 14.01,

@@ -1,0 +1,3 @@
+Новые выпуски PyQt5, PyQtChart, PyQtDataVisualization и PyQtPurchasing
+
+Состоялся релиз библиотеки PyQt 5.7, предназначенной для разработки графических приложений на языке Python. Также доступны новые выпуски компонентов PyQtChart, PyQtDataVisualization и PyQtPurchasing с поддержкой соответствущей версии кроссплатформенного фреймворка Qt 5.7. Помимо поддержки актуальной версии Qt в новых версиях осуществлён перевод кодовой базы дополнительных компонентов PyQtChart, PyQtDataVisualization и PyPurchasing на лицензию GPLv3.

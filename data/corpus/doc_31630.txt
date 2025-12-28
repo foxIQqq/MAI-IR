@@ -1,0 +1,3 @@
+Фильм про Red Hat и Open Source
+
+Компания Red Hat представила документальный фильм "Default to Open: The Story of Open Source and Red Hat", в котором рассказывается об эволюции открытого ПО, а также прошлом, настоящем и будущем компании Red Hat. Фильм опубликован под лицензией Creative Commons и доступен для свободного распространения. Из известных деятелей открытого ПО в фильме запечатлены DeLisa Alexander, Jeremy Allison, Paul Cormier, Alan Cox, John Halamka, Venky Hariharan, Lawrence Lessig, Alex Pinchev, Brian Stevens, Michael Tiemann, Mark Webbink, Jim Whitehurst, Jan Wildeboer и Bob Young. Продолжительность фильма 27 минут.

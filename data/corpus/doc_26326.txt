@@ -1,0 +1,3 @@
+Репозиторий с новинками виртуализации для Fedora 12
+
+Представлен новый экспериментальный репозиторий для Fedora 12, в котором собраны пакеты с реализацией связанных с виртуализацией новинок, которые теперь можно опробовать не дожидаясь релиза Fеdora 13. Обзор ожидаемых в Fedora 13 улучшений виртуализации можно посмотреть здесь. Для подключения репозитория нужно создать файл /etc/yum.repos.d/virt-preview.repo следующего содержания: [virt-preview] name=Virtualization Rawhide for Fedora 13 baseurl=http://jforbes.fedorapeople.org/virt-preview/f13/$basearch/ enabled=1 gpgcheck=0

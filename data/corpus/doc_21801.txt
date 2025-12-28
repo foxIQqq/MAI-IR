@@ -1,0 +1,3 @@
+Интервью с основателем системы управления контентом Drupal
+
+Интервью с Dries Buytaert, основателем системы управления контентом Drupal. CMS начала развиваться в 1999 году как студенческий проект по созданию BBS на PHP. Первый релиз Drupal вышел в январе 2001 года. Сейчас сообщество Drupal насчитывает несколько тысяч активных разработчиков, число независимых модулей для Drupal достигло двух тысяч, на базе Drupal построены десятки тысяч сайтов, например сайты компаний Lifetime Television, MTV UK, Universal Music, SonyBMG, Warner Brothers Records, New York Observer, Forbes, The Onion, Harvard University, Amnesty International.

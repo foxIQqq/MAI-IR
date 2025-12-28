@@ -1,0 +1,3 @@
+Оценка производительности EXT3, EXT4 и Btrfs в Ubuntu
+
+Опубликованы результаты сравнения производительности файловых систем EXT3, EXT4 и Btrfs в Ubuntu 9.10 и экспериментальной версии Ubuntu 10.04 на нетбуке под управлением процессора Intel Atom N270. В целом результаты для Ubuntu 9.10 и 10.04 очень близки, за исключением: ускорения Btrfs в 10.04 в тестах SQLite, CompileBench, IOzone, PostMark замедления Btrfs в тесте Dbench ускорения EXT4 в тестах CompileBench, Dbench, PostMark замедления EXT4 в тесте Threaded I/O Tester ускорения EXT3 в тесте Dbench замедления EXT3 в тесте CompileBench

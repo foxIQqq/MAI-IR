@@ -1,0 +1,3 @@
+Релиз Wine 1.5.21
+
+Вышел очередной экспериментальный релиз открытой реализации Win32 API - Wine 1.5.21. С момента выпуска версии 1.5.20 было закрыто 32 отчёта об ошибках. Из наиболее важных изменений отмечается начало реализации встроенной программы netstat и поддержка выбора разрешения для драйвера PostScript. Кроме того, внесены исправления, улучшающие совместимость с такими приложениями и играми, как Tecplot 360, Fallout 3, AIM 7.3, GTA IV, Visual Studio 2010, Delphi 7, Civilization III, Torchlight II, LMS Virtual Lab, Tales of Monkey Island, QQ2011, Origin 9, MS SQL Server management studio 2005, Foxit Reader.

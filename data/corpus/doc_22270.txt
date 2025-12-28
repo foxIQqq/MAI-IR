@@ -1,0 +1,3 @@
+Вышел Linux дистрибутив GoblinX Mini 3.0
+
+Вышел GoblinX Mini 3.0, минималистичный Live-дистрибутив, построенный на базе Slackware Linux, десктоп окружении Xfce 4.6 (дополнительно выпускается GoblinX Micro на базе Fluxbox) и наборе популярных GTK приложений (abiword, Audacious, firefox, gimp, gnumeric, pidgin, thunderbird). ISO образ доступен в двух версиях: полной - 290Мб и сокращенной - 150Мб. По сравнению с прошлым выпуском, в состав дистрибутива включены приложения Ucview, GXine, Claws Mail, Twitux, Epdfview и Gigolo. Из поставки удалены программы Leafpad, Nautilus, Totem, Evince, Ristretto и Squeeze, причина удаления - попытка замены GNOME-ориентированных программ на более близкие к XFCE аналоги.

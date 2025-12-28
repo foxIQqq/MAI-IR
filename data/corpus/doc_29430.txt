@@ -1,0 +1,3 @@
+Вышла новая версия Webacula 5.5.0-RC1
+
+Представлен кандидат в релизы Webacula-5.5.0-RC1, веб-интерфейса к системе резервного копирования Bacula. Основные новшества Webacula в версии 5.5: Реализация Bacula Access Control Lists (ACL): JobACL, ClientACL, StorageACL, PoolACL, FileSetACL, WhereACL; Реализация Webacula ACLs - разграничение доступа к меню; Все таблицы Webacula перенесены в БД Bacula, больше не требуется отдельной БД; Кроме того, выпущен фильм "Webacula forever ;)", где показаны основные приемы при работе с Webacula. Фильм собран с помощью Kdenlive.

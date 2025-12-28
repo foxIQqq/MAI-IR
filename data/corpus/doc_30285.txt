@@ -1,0 +1,3 @@
+Доступен проприетарный видеодрайвер NVIDIA 270.41.03
+
+Компанией NVIDIA выпустила пакет проприетарных драйверов для Linux - NVIDIA 270.41.03, имеющий статус пре-релиза. По сравнению с выпуском 270.30.x в новой серии драйверов добавлена поддержка следующих видеокарт: GeForce GT 520 GeForce GT 525M GeForce GT 520M GeForce GT 445M GeForce GT 530 GeForce 405 GeForce GTX 590 GeForce GTX 550 Ti GeForce GT 420 GeForce GT 440 GeForce GTX 470M GeForce GTX 485M GeForce GT 550M GeForce GT 555M NVS 4200M Quadro 1000M Quadro 2000M Отдельно можно отметить исправление довольно интересной ошибки, которая приводила к зависанию X-сервера на 32-разрядных системах каждые 49.7 дней.

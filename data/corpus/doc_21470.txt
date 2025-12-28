@@ -1,0 +1,3 @@
+Выпущен Rack 1.0 модульный интерфейс к web-серверам для языка Ruby
+
+Выпущен релиз Rack 1.0, единый модульный интерфейс к web-серверам для языка Ruby. Rack предоставляет единый API для обработки HTTP-запросов, унифицирующий обращения к web-серверам, фреймворкам и промежуточному ПО (middleware). Присутствуют обработчики соединений для Mongrel, EventedMongrel, SwiftipliedMongrel, WEBrick, FCGI, CGI, SCGI, LiteSpeed, Thin. Начиная с релиза Ruby on Rails 2.3, внутренняя инфраструктура Rails переведена на Rack, что позволило увеличить производительность интегрированных в фреймворк сервисов. Кроме Rails, поддерживаются web-фреймворки: Camping, Coset, Halcyon, Mack, Maveric, Merb, Racktools::SimpleApplication, Ramaze, Rum, Sinatra, Sin, Vintage, Waves, Wee.

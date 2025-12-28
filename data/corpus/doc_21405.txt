@@ -1,0 +1,3 @@
+Видеозаписи докладов с BSD конференций
+
+В группу bsdconferences на YouTube размещены последние видеозаписи докладов с конференций DCBSDCon и AsiaBSDCon. Анонс от разработчиков FreeBSD. Анонс от разработчиков OpenBSD. Некоторые интересные доклады: Robert Luciani, M:N Threading in DragonFly BSD Kurt Miller, Implementing pie on OpenBSD Isolating Cluster Jobs for Performance and Predictability, Brooks Davis Epitome, Marco Peereboom Process Isolation for NetBSD and OpenBSD, Kristaps Dzonson OpenBSD vs SMP, Threading, and Concurrency, Ted Unangst A Narrative History of BSD, Dr. Kirk McKusick OpenBSD Network Stack Internals, Claudio Jeker A Brief History of the BSD Fast Filesystem, Kirk McKusick BSD Implementations of XCAST6, Yuji Imai

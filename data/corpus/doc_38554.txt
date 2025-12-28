@@ -1,0 +1,3 @@
+Для ALT Linux доступна мультиплатформенная сборка ядра Linux для ARM
+
+Репозиторий ALT Linux Sisyphus для архитектуры armh (ARMv7hf) пополнился пакетом kernel-image-mp с ядром с поддержкой большинства распространённых ARMv7 SoC, таких как Marvell Armada XP/370, TI OMAP, Freesscale i.MX, NVIDIA Tegra, Calxeda Highbank, Allwinner Axx. Степень поддержки варьируется от базовой (напр. allwinner sunxi) до практически полной (armada xp/370). В частности, это ядро работает на одном из сборочных узлов (armadaxp), а так же на solid-run carrier-one (imx6). Заинтересованным может оказаться также полезен проект mkimage-profiles, предназначенный для создания готовых образов.

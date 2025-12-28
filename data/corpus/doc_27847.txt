@@ -1,0 +1,3 @@
+Выпущен сентябрьский номер электронного журнала Gnome Journal
+
+Доступен 21 номер электронного журнала для пользователей и разработчиков GNOME. В выпуске: "Grilo: Integrating Multimedia Content in Your Application" - рассказ о фреймворке Grilo, позволяющем легко интегрировать мультимедиа контент в GNOME-приложения; "Writing simple, real-time games for GNOME" - обобщение опыта разработки простых игр для GNOME, используя библиотеку Clutter; "Behind the Scenes with Joanmarie Diggs" - интервью с Joanmarie Diggs, участвующей в команде по развитию в GNOME средств для людей с ограниченными возможностями; "Interview with Bradley Kuhn of the GNOME Advisory Board" - интервью с Bradley Kuhn, техническим директором Центра Свободного ПО (SFLC) и членом управляющего совета GNOME.

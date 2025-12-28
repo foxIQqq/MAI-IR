@@ -1,0 +1,3 @@
+Открыт код игр Gravity Bone, Thirty Flights of Loving и Quadrilateral Cowboy
+
+Компания Blendo Games открыла исходные тексты квестов от первого лица Gravity Bone (2008), Thirty Flights of Loving (2012) и Quadrilateral Cowboy (2016). Gravity Bone и Thirty Flights of Loving открыты под лицензией GPLv2, а Quadrilateral Cowboy под GPLv3. Игровые ресурсы, такие как изображения, модели, текстуры и звуки, остаются проприетарными. Игры написаны на C/C++, используют движок idTech4 или idTech2 и поддерживают запуск в Linux, Windows и macOS.

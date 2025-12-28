@@ -1,0 +1,3 @@
+Представлен Gthree, порт three.js для GObject и GTK
+
+Александр Ларсон (Alexander Larsson), разработчик Flatpak и активный участник проекта GNOME, представил новый проект Gthree, в рамках которого подготовлен порт 3D-библиотеки three.js для GObject и GTK. API Gthree практически идентичен three.js, в том числе реализован загрузчик glTF (GL Transmission Format) и возможность использования в моделях материалов на базе PBR (Physically Based Rendering). Для отрисовки поддерживается только OpenGL. На практике Gthree может применяться для добавления 3D-эффектов в приложения GNOME.

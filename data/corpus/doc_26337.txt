@@ -1,0 +1,3 @@
+Перевод 34 выпуска PDF-журнала пользователей Ubuntu - Full Circle Magazine
+
+Вышел перевод 34-го выпуска Full Circle Magazine, электронного журнала для пользователей Ubuntu Linux. В номере (PDF, 8.3 Мб): How-to: Программа на Python - часть 8 How-to: Цифровая ретушь фотографий в GIMP How-to: Идеальный сервер — часть 4 Моя история: Как вся семья перешла на Ubuntu, и о Powerpets Обзор: ноутбук Asus UL30-A Интервью с MOTU - Roderick Greening ТОП 5: Словари и справочники Игры Ubuntu, Ubuntu Women и многое другое

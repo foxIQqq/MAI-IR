@@ -1,0 +1,3 @@
+Выпуск Wine 1.7.23
+
+Вышел очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.7.23. С момента выпуска версии 1.7.22 было закрыто 42 отчёта об ошибках. Наиболее важные изменения: Начальная поддержка 64-разрядных сборок для Android; Улучшена поддержка перемещения файлов через интерфейс drag & drop; Расширены средства управления HTTP cookies; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Adobe InDesign CS4, Icy Tower 1.4, Dark Age of Camelot, Strange Cases: The Lighthouse Mysteries, Alien Shooter, SigmaPlot 11.0, Desura, UPlay 3.x/4.x, Reason 7.0.1, Crysis, SolidEdge ST6, Gex 3D.

@@ -1,0 +1,3 @@
+Наиболее влиятельные руководители open source компаний
+
+Подведены итоги опроса с целью выявление наиболее влиятельных представителей open source индустрии. На основании опроса 50 руководителей ведущих open source компаний Северной Америки и Европы было выявлено 5 лидеров: Larry Augustin - глава SugarCRM; Matt Asay - руководитель Alfresco; Martin Mickos - бывший руководитель MySQL AB; Jim Whitehurst - глава Red Hat; Dries Buytaert - создатель CMS Drupal; Занявшие с 6 по 11 место: Mark Radcliffe (DLA Piper), Mark Shuttleworth (Ubuntu), Andrew Aitken (Olliance Group), Rod Johnson (SpringSource), Marc Fleury (JBoss), Scott Mcnealy (Sun Microsystems).

@@ -1,0 +1,3 @@
+Обзор виртуальных машин для языка Ruby
+
+В обзоре "State of Ruby VMs: Ruby Renaissance" рассмотрено состояние развития восьми реализаций виртуальных машин для языка Ruby: MRI - основная реализация; JRuby - реализация для JVM; IronRuby - реализация для .NET DLR; MacRuby - реализация на базе LLVM и Objective-C для MacOS X; MagLev - реализация для Smalltalk VM; Rubinius - реализация языка Ruby, написанная на языке Ruby, VM на С++; REE - Ruby Enterprise Edition; BlueRuby - реализация для ABAP VM.

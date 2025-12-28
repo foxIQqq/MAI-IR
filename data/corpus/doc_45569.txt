@@ -1,0 +1,3 @@
+Выпуск Wine 1.9.24
+
+Доступен очередной экспериментальный выпуск открытой реализации Win32 API - Wine 1.9.24. С момента выпуска версии 1.9.23 было закрыто 28 отчётов об ошибках. Наиболее важные изменения: В Direct3D реализована поддержка метода UAV (unordered access view) для организации неупорядоченного доступа к ресурсам из нескольких потоков; Проведена ревизия набора регрессионных тестов; Продолжено усовершенствование поддержки шины HID; Закрыты отчёты об ошибках, связанные с работой игр и приложений: Anthem Room Correction 2 v1.0.1, Stronghold 2, Need For Speed Underground 2, ProtectDisc Driver 11, Avatarika, Fallout New Vegas, Deus Ex:Human Revolution, Zombie Army, The Vanishing of Ethan Carter Redux, The Solus Project, Motocross madness, GOG Galaxy.

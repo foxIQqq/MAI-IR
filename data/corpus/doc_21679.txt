@@ -1,0 +1,3 @@
+Репозиторий пакетов с последними версиями X.Org видеодрайверов для Ubuntu
+
+Открылся репозиторий пакетов для Ubuntu Linux с последними версиями X-сервера и open source видеодрайверов Intel, ATI (ati, radeonhd), Nvidia (nouveau), Savage и VESA. Репозиторий поддерживает Ubuntu от релиза 8.04 до тестовой версии 9.10. Для подключения репозитория в Ubuntu 8.10 можно использовать строку: "deb http://ppa.launchpad.net/xorg-edgers/ppa/ubuntu intrepid main" Для Ubuntu 9.04: "deb http://ppa.launchpad.net/xorg-edgers/ppa/ubuntu jaunty main"

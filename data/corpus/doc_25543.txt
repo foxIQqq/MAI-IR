@@ -1,0 +1,3 @@
+25 компьютерных технологий десятилетия
+
+Издание eWEEK опубликовало рейтинг из 25 технологий, оказавших наибольшее влияние на развитие компьютерной техники и информационных технологий за последнее десятилетие. В списке присутствуют следующие открытые проекты: Firefox OpenOffice.org Red Hat Enterprise Linux Solaris 10 Другие упомянутые в рейтинге технологии: VoIP технологии Skype и SIP VMware Ajax iPhone/iPod Blackberry Palm Treo Нетбуки Blade-серверы Bluetooth 3G WiFi 802.11g PoE (Power Over Ethernet) Многоядерные процессоры Архитектура AMD64 Windows XP Mac OS X Twitter Социальные сети Приложения в виде сервисов предложенные Salesforce.com Gmail/Google apps Облачные вычисления Amazone EC2

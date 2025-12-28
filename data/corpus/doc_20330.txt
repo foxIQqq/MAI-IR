@@ -1,0 +1,3 @@
+Видеоматериалы с конференции FOSDEM 2009
+
+Ниже подборка материалов с конференции Free & Open Source Developers' Europe Meeting (FOSDEM) 2009: "FOSDEM videos released" - опубликованы видеозаписи 15 выступлений, имеющих отношение к Debian GNU/Linux. "X@FOSDEM 2009: RandR 1.3, GEM, Gallium3D, Etc" - ссылки на видео с докладами по развитию графической подсистемы Linux. "FOSDEM Video: Micro Distro Summit " - запись встречи представителей трех дистрибутивов: openSUSE (Joe Brockmeier), Debian (Steve McIntyre) и Red Hat (Max Spevack). "Open Source News from FOSDEM 2009" (день 1, день 2) - подробный репортаж с выставки, с изложением идей самых интересных докладов.

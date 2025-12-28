@@ -1,0 +1,3 @@
+Компания Microsoft потребовала убрать изображение Skype из Ubuntu Linux
+
+Представители Microsoft потребовали прекратить поставку в составе Ubuntu Linux иконки Skype, ссылаясь на нарушение условий использования торговой марки. Удаление иконки не будет замечено пользователями, так как файл Skype.png не был задействован в работе базовой сборки Ubuntu, а при установке Skype выводилась пиктограмма из состава оригинального deb-пакета, собранного в Microsoft. Наличие изображения Skype выявлено в пакетах unity-asset-pool, kdenetwork, oxygen-icons, ktp-common-internals, ubuntukylin-default-settings, kdenetwork, lubuntu-artwork, ubiquity-slideshow-ubuntu и kopete, исправленные версии которых уже загружены в репозитории Ubuntu 12.10 и 13.04.

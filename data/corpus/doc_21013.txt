@@ -1,0 +1,3 @@
+Опубликованы материалы конференции LibrePlanet
+
+"FSF releases audio recording of LibrePlanet conference" - Фонд свободного ПО опубликовал аудиозаписи всех выступлений, прозвучавших на конференции LibrePlanet. Например, доступны: доклад Jeremy Allison по взаимодействию проекта Samba с Microsoft; доклад Rob Savoye о прогрессе в разработке Gnash и новом медиа сервере Cygnal, совместимом с Flash Media Server; выступление Richard Stallman с рассказом об опасностях несвободного JavaScript кода; запись церемонии награждения создателя Postfix за вклад в развитие свободного ПО.

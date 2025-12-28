@@ -1,0 +1,3 @@
+Решение проблем с использованием Xen 3.3.1 в CentOS 5.3
+
+"Port Xen 3.3.1 to CentOS 5.3 via http://gitco.de" - решение проблем с использованием Xen 3.3.1 в CentOS 5.3, через установку пакетов из репозитория gitco.de. Также можно отметить статью "Setup Xen Unstable Dom0 with 2.6.29-tip pvops enabled kernel on top Ubuntu Intrepid Server (64 bit)" об установке экспериментальных патчей Xen для 2.6.29 Linux ядра.

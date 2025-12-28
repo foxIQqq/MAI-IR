@@ -1,0 +1,3 @@
+Выпуск Wine 5.14
+
+Состоялся экспериментальный выпуск открытой реализации WinAPI - Wine 5.14. С момента выпуска версии 5.13 было закрыто 26 отчётов об ошибках и внесено 302 изменения. Наиболее важные изменения: Продолжена работа по реструктуризации поддержки консоли. Предложена начальная версия шрифта Webdings. Началось преобразование библиотек MSVCRT в формат PE. Закрыты отчёты об ошибках, связанные с работой игр и приложений: AOL 9.0, Largo Winch, DOSCenter, StarCraft: Brood War, Bayonetta, Star Wars: The Force Unleashed II, Toontown Rewritten, Helm Standalone/VST plugin, PassMark PerformanceTest 10, Diablo III, Chaos Legion, Tableau Desktop, Battle.net, TES4:Oblivion.

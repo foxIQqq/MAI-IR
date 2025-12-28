@@ -1,0 +1,3 @@
+Организация FreeBSD Foundation запускает собственный печатный журнал
+
+Организация FreeBSD Foundation представила новый журнал FreeBSD Journal, посвящённый операционной системе FreeBSD. Журнал будет выходить в форме печатной версии, выпускаемой раз в два месяца, но также будет доступен через Web и в версии для чтения на мобильных устройствах. Первый выпуск запланирован на январь 2014 года и будет включать такие материалы, как обзор FreeBSD 10, статьи про ZFS, Clang и запуск FreeBSD на плате ARM Beaglebone Black. В редакционную коллегию журнала входят John Baldwin и Hiroki Sato из FreeBSD Core Team, а также такие известные люди, как Kirk McKusick, George Neville-Neil, Michael Lucas, Dru Lavigne, Joseph Kong и Robert Watson.

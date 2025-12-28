@@ -1,0 +1,3 @@
+Стабильный релиз MASM-совместимого открытого ассемблера JWASM
+
+Вышла новая стабильная версия ассемблера JWASM 2.02, продолжающего развитие проекта Open Watcom (WASM). Код JWASM распространяется под открытой лицензией Sybase Open Watcom Public License, одобренной организацией OSI. JWASM поддерживает синтаксис ассемблера MASM (Microsoft Macro Assembler) и позволяет генерировать исполняемые файлы в форматах OMF, MS Coff (32- и 64-bit), Elf (32- и 64-bit), Bin и DOS MZ для платформ Linux, Windows, OS/2 и FreeBSD.

@@ -1,0 +1,3 @@
+NCSA Mosaic портирован для современных Linux дистрибутивов
+
+Энтузиасты адаптировали для работы в современных Linux дистрибутивах код первого графического web-браузера NCSA Mosaic 2.7, выпущенного более 15 лет назад. Инструкция по сборке NCSA Mosaic в Ubuntu Linux: Устанавливаем необходимые для сборки пакеты: sudo apt-get install build-essential libmotif3 libmotif-dev libjpeg62-dev git sudo apt-get install libpng3 x11proto-print-dev libxmu-headers libxpm-dev libxmu-dev Загружаем код браузера: git clone git://github.com/alandipert/ncsa-mosaic.git Собираем: make linux Запускам: src/Mosaic
