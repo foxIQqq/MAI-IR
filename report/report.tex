@@ -1,0 +1,30 @@
+\documentclass[a4paper,12pt]{article}
+\input{styles/log-style.sty}
+
+\begin{document}
+
+% Титульный лист
+\input{src/titlepage.tex}
+
+\tableofcontents
+\pagebreak
+
+% Задание и цель (в оглавлении, без номера)
+\input{src/problem.tex}
+
+% Лабораторные части
+\input{src/lab1.tex}
+\input{src/lab2.tex}
+\input{src/lab3.tex}
+\input{src/lab4.tex}
+\input{src/lab5.tex}
+\input{src/lab6.tex}
+\input{src/lab7.tex}
+
+% Выводы (в оглавлении, без номера)
+\input{src/thinks.tex}
+
+% Литература (в оглавлении, без номера)
+\input{src/literature.tex}
+
+\end{document}

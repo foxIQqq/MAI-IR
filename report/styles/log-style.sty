@@ -1,0 +1,55 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+
+\frenchspacing
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{alltt}
+\usepackage{csquotes}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shadows,fit}
+
+\DeclareQuoteStyle{russian}
+  {\guillemotleft}{\guillemotright}[0.025em]
+  {\quotedblbase}{\textquotedblleft}
+\ExecuteQuoteOptions{style=russian}
+
+\lstset{
+  inputencoding=utf8,
+  extendedchars=true,
+  breaklines=true,
+  columns=fullflexible,
+  basicstyle=\footnotesize\ttfamily,
+  numbers=left,
+  numberstyle=\footnotesize,
+  showstringspaces=false,
+  escapeinside={(*@}{@*)}
+}
+
+\oddsidemargin=0mm
+\textwidth=160mm
+\topmargin=0mm
+\textheight=230mm
+
+\usepackage{placeins}
+
+\parindent=0pt
+\parskip=6pt
+
+\newcommand{\CWPHeader}[1]{\section*{#1}}
+
+% Заголовок лабораторной работы.
+\newcommand{\CWHeader}[1]{\section*{#1}}
+
+% небольшая команда для моноширинного inline кода
+\newcommand{\code}[1]{\texttt{#1}}
