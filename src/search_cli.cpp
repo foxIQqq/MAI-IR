@@ -1,165 +1,150 @@
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <cctype>
 #include <iostream>
-#include <fstream>
-#include <string>
 #include "../include/sch_containers.h"
+#include "../include/sch_string.h"
 #include "../include/sch_string_utils.h"
 
 struct IndexData {
-    SchVector<std::string> doc_names;
-    SchStringHashMap<SchVector<int>> index;
+    SchVector<SchString> doc_names;
+    SchStringHashMap< SchVector<int> > index;
 };
 
-IndexData load_index(const std::string& filename) {
+IndexData load_index(const char* filename) {
     IndexData idx;
-    std::ifstream in(filename, std::ios::binary);
-    if (!in.is_open()) {
-        std::cerr << "FATAL: Failed to open index file: " << filename << std::endl;
-        exit(1);
-    }
+    FILE* in = fopen(filename, "rb");
+    if (!in) { fprintf(stderr, "FATAL: Failed to open index file: %s\n", filename); exit(1); }
 
-    size_t docs_count;
-    if (!in.read(reinterpret_cast<char*>(&docs_count), sizeof(docs_count))) return idx;
-    
+    size_t docs_count = 0;
+    if (fread(&docs_count, sizeof(docs_count), 1, in) != 1) { fclose(in); return idx; }
+
     for (size_t i = 0; i < docs_count; ++i) {
         size_t len;
-        in.read(reinterpret_cast<char*>(&len), sizeof(len));
+        fread(&len, sizeof(len), 1, in);
         char* buffer = new char[len + 1];
-        in.read(buffer, len);
+        fread(buffer, 1, len, in);
         buffer[len] = '\0';
-        idx.doc_names.push_back(std::string(buffer));
+        idx.doc_names.push_back(SchString(buffer, len));
         delete[] buffer;
     }
 
-    size_t vocab_size;
-    in.read(reinterpret_cast<char*>(&vocab_size), sizeof(vocab_size));
+    size_t vocab_size = 0;
+    fread(&vocab_size, sizeof(vocab_size), 1, in);
     for (size_t i = 0; i < vocab_size; ++i) {
         size_t term_len;
-        in.read(reinterpret_cast<char*>(&term_len), sizeof(term_len));
+        fread(&term_len, sizeof(term_len), 1, in);
         char* term_buf = new char[term_len + 1];
-        in.read(term_buf, term_len);
+        fread(term_buf, 1, term_len, in);
         term_buf[term_len] = '\0';
-        std::string term(term_buf);
+        SchString term(term_buf, term_len);
         delete[] term_buf;
 
         size_t list_size;
-        in.read(reinterpret_cast<char*>(&list_size), sizeof(list_size));
-        
+        fread(&list_size, sizeof(list_size), 1, in);
         SchVector<int> postings;
         for (size_t j = 0; j < list_size; ++j) {
             int did;
-            in.read(reinterpret_cast<char*>(&did), sizeof(did));
+            fread(&did, sizeof(did), 1, in);
             postings.push_back(did);
         }
         idx.index.insert(term, postings);
     }
+    fclose(in);
     return idx;
 }
 
-// БУЛЕВ ПОИСК: Пересечение (AND)
 SchVector<int> intersect_lists(const SchVector<int>& l1, const SchVector<int>& l2) {
     SchVector<int> res;
     size_t i = 0, j = 0;
     while (i < l1.size() && j < l2.size()) {
-        if (l1[i] == l2[j]) {
-            res.push_back(l1[i]);
-            i++; j++;
-        } else if (l1[i] < l2[j]) {
-            i++;
-        } else {
-            j++;
-        }
+        if (l1[i] == l2[j]) { res.push_back(l1[i]); i++; j++; }
+        else if (l1[i] < l2[j]) i++;
+        else j++;
     }
     return res;
 }
-
-// БУЛЕВ ПОИСК: Объединение (OR)
 SchVector<int> union_lists(const SchVector<int>& l1, const SchVector<int>& l2) {
     SchVector<int> res;
     size_t i = 0, j = 0;
     while (i < l1.size() || j < l2.size()) {
         if (i == l1.size()) { res.push_back(l2[j++]); continue; }
         if (j == l2.size()) { res.push_back(l1[i++]); continue; }
-        
-        if (l1[i] == l2[j]) {
-            res.push_back(l1[i]);
-            i++; j++;
-        } else if (l1[i] < l2[j]) {
-            res.push_back(l1[i++]);
-        } else {
-            res.push_back(l2[j++]);
-        }
+        if (l1[i] == l2[j]) { res.push_back(l1[i]); i++; j++; }
+        else if (l1[i] < l2[j]) res.push_back(l1[i++]);
+        else res.push_back(l2[j++]);
     }
     return res;
 }
 
-SchVector<int> execute_query(const std::string& query, IndexData& idx) {
-    std::stringstream ss(query);
-    std::string word;
-    SchVector<std::string> raw_parts;
-    while(ss >> word) raw_parts.push_back(word);
+void to_upper_inplace(char* s) {
+    for (size_t i = 0; s[i]; ++i) s[i] = (char)toupper((unsigned char)s[i]);
+}
 
-    if (raw_parts.size() == 0) return SchVector<int>();
+SchVector<int> execute_query_cstr(const char* query_cstr, IndexData& idx) {
+    SchVector<const char*> parts;
+    char* qcopy = strdup(query_cstr);
+    char* tok = std::strtok(qcopy, " \t\r\n");
+    while (tok) { parts.push_back(tok); tok = std::strtok(NULL, " \t\r\n"); }
+    if (parts.size() == 0) { free(qcopy); return SchVector<int>(); }
 
-    auto process_term = [](const std::string& t) -> std::string {
-        SchVector<std::string> tokens = tokenize(t);
-        if (tokens.size() > 0) return stem_word(tokens[0]);
-        return "";
+    auto process_term = [&](const char* t)->SchVector<int> {
+        SchString t_sch(t);
+        SchVector<SchString> toks = tokenize(t_sch);
+        if (toks.size() == 0) return SchVector<int>();
+        SchString st = stem_word(toks[0]);
+        SchVector<int>* ptr = idx.index.get(st);
+        if (ptr) return *ptr;
+        return SchVector<int>();
     };
 
-    std::string term = process_term(raw_parts[0]);
-    SchVector<int>* ptr = idx.index.get(term);
-    SchVector<int> result = (ptr) ? *ptr : SchVector<int>();
-
-    for (size_t i = 1; i < raw_parts.size(); ++i) {
-        std::string op = raw_parts[i];
-        if (op == "AND" || op == "OR") {
-            if (i + 1 >= raw_parts.size()) break;
-            
-            std::string next_term = process_term(raw_parts[i+1]);
-            SchVector<int>* next_ptr = idx.index.get(next_term);
-            SchVector<int> next_list = (next_ptr) ? *next_ptr : SchVector<int>();
-
-            if (op == "AND") {
-                result = intersect_lists(result, next_list);
-            } else if (op == "OR") {
-                result = union_lists(result, next_list);
-            }
-            i++;
+    SchVector<int> result = process_term(parts[0]);
+    for (size_t i = 1; i < parts.size(); ++i) {
+        const char* op = parts[i];
+        char op_copy[16]; std::strncpy(op_copy, op, 15); op_copy[15] = '\0';
+        to_upper_inplace(op_copy);
+        if (std::strcmp(op_copy, "AND") == 0 || std::strcmp(op_copy, "OR") == 0) {
+            if (i + 1 >= parts.size()) break;
+            SchVector<int> next = process_term(parts[i+1]);
+            if (std::strcmp(op_copy, "AND") == 0) result = intersect_lists(result, next);
+            else result = union_lists(result, next);
+            ++i;
         } else {
-            std::string next_term = process_term(op);
-            SchVector<int>* next_ptr = idx.index.get(next_term);
-            SchVector<int> next_list = (next_ptr) ? *next_ptr : SchVector<int>();
-            result = intersect_lists(result, next_list);
+            SchVector<int> next = process_term(op);
+            result = intersect_lists(result, next);
         }
     }
+    free(qcopy);
     return result;
 }
 
 int main(int argc, char* argv[]) {
-    std::string index_path = "dumps/index.bin";
-    if (argc > 1) {
-        index_path = argv[1];
-    }
+    const char* index_path = "dumps/main_index.bin";
+    if (argc > 1) index_path = argv[1];
 
-    std::cerr << "Loading index from: " << index_path << "..." << std::endl;
+    fprintf(stderr, "Loading index from: %s ...\n", index_path);
     IndexData idx = load_index(index_path);
-    std::cerr << "Index loaded. Ready for queries." << std::endl;
+    fprintf(stderr, "Index loaded. Ready for queries.\n");
 
-    std::string line;
-    while (std::getline(std::cin, line)) {
-        if (line.empty()) continue;
-        
-        SchVector<int> results = execute_query(line, idx);
-        
-        std::cout << "Found " << results.size() << " documents:" << std::endl;
+    char linebuf[4096];
+    while (fgets(linebuf, sizeof(linebuf), stdin)) {
+        size_t L = strlen(linebuf);
+        while (L > 0 && (linebuf[L-1] == '\n' || linebuf[L-1] == '\r')) { linebuf[L-1] = '\0'; --L; }
+        if (L == 0) continue;
+        SchVector<int> results = execute_query_cstr(linebuf, idx);
+        printf("Found %zu documents:\n", results.size());
         for (size_t i = 0; i < results.size(); ++i) {
-            if (i >= 15) { 
-                std::cout << "... and " << (results.size() - 15) << " more" << std::endl; 
-                break; 
+            if (i >= 15) { printf("... and %zu more\n", results.size() - 15); break; }
+            int docid = results[i];
+            if (docid >= 0 && docid < (int)idx.doc_names.size()) {
+                printf("%s\n", idx.doc_names[docid].c_str());
+            } else {
+                printf("(doc id %d)\n", docid);
             }
-            std::cout << idx.doc_names[results[i]] << std::endl;
         }
-        std::cout << "---END---" << std::endl;
+        printf("---END---\n");
+        fflush(stdout);
     }
     return 0;
 }

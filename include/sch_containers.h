@@ -4,15 +4,15 @@
 #include <cstddef>
 #include <stdexcept>
 #include <iostream>
+#include <cstring>
+#include "sch_string.h"
 
-// --- Аналог std::vector ---
 template <typename T>
 class SchVector {
 private:
     T* data;
     size_t capacity;
     size_t length;
-
     void resize(size_t new_capacity) {
         T* new_data = new T[new_capacity];
         for (size_t i = 0; i < length; ++i) {
@@ -22,64 +22,42 @@ private:
         data = new_data;
         capacity = new_capacity;
     }
-
 public:
-    SchVector() : capacity(10), length(0) {
-        data = new T[capacity];
-    }
-
-    ~SchVector() {
-        delete[] data;
-    }
-
+    SchVector() : capacity(10), length(0) { data = new T[capacity]; }
+    ~SchVector() { delete[] data; }
     SchVector(const SchVector& other) : capacity(other.capacity), length(other.length) {
         data = new T[capacity];
-        for (size_t i = 0; i < length; ++i) {
-            data[i] = other.data[i];
-        }
+        for (size_t i = 0; i < length; ++i) data[i] = other.data[i];
     }
-    
     SchVector& operator=(const SchVector& other) {
         if (this != &other) {
             delete[] data;
             capacity = other.capacity;
             length = other.length;
             data = new T[capacity];
-            for (size_t i = 0; i < length; ++i) {
-                data[i] = other.data[i];
-            }
+            for (size_t i = 0; i < length; ++i) data[i] = other.data[i];
         }
         return *this;
     }
 
     void push_back(const T& value) {
-        if (length == capacity) {
-            resize(capacity * 2);
-        }
+        if (length == capacity) resize(capacity * 2);
         data[length++] = value;
     }
-
     size_t size() const { return length; }
-    
     T& operator[](size_t index) {
         if (index >= length) throw std::out_of_range("Index out of bounds");
         return data[index];
     }
-
     const T& operator[](size_t index) const {
         if (index >= length) throw std::out_of_range("Index out of bounds");
         return data[index];
     }
-    
     T* begin() { return data; }
     T* end() { return data + length; }
-    
-    void clear() {
-        length = 0;
-    }
+    void clear() { length = 0; }
 };
 
-// --- Аналог std::pair ---
 template <typename K, typename V>
 struct SchPair {
     K key;
@@ -88,27 +66,31 @@ struct SchPair {
     SchPair(K k, V v) : key(k), value(v) {}
 };
 
-// --- Простой хэш-мап (метод цепочек) ---
-// Ограничение: K должен быть std::string (так как нужен хэшер) или типом, который можно привести к int
 template <typename V>
 class SchStringHashMap {
 private:
     struct Node {
-        SchPair<std::string, V> data;
+        char* key; // C-string copied
+        V value;
         Node* next;
-        Node(std::string k, V v) : data(k, v), next(nullptr) {}
+        Node(const char* k, const V& v) : value(v), next(nullptr) {
+            size_t ln = std::strlen(k);
+            key = new char[ln + 1];
+            std::memcpy(key, k, ln + 1);
+        }
+        ~Node() { delete[] key; }
     };
 
     Node** buckets;
     size_t bucket_count;
     size_t size_;
 
-    size_t hash(const std::string& key) const {
-        size_t h = 0;
-        for (char c : key) {
-            h = 31 * h + c;
+    size_t hash_cstr(const char* key) const {
+        unsigned long h = 2166136261u;
+        for (const unsigned char* p = (const unsigned char*)key; *p; ++p) {
+            h = (h ^ (*p)) * 16777619u;
         }
-        return h % bucket_count;
+        return (size_t)(h % bucket_count);
     }
 
 public:
@@ -116,59 +98,58 @@ public:
         buckets = new Node*[bucket_count];
         for (size_t i = 0; i < bucket_count; ++i) buckets[i] = nullptr;
     }
-
     ~SchStringHashMap() {
         for (size_t i = 0; i < bucket_count; ++i) {
-            Node* current = buckets[i];
-            while (current) {
-                Node* temp = current;
-                current = current->next;
-                delete temp;
+            Node* cur = buckets[i];
+            while (cur) {
+                Node* tmp = cur;
+                cur = cur->next;
+                delete tmp;
             }
         }
         delete[] buckets;
     }
 
-    void insert(const std::string& key, const V& value) {
-        size_t h = hash(key);
-        Node* current = buckets[h];
-        while (current) {
-            if (current->data.key == key) {
-                current->data.value = value;
+    void insert(const SchString& key, const V& value) {
+        const char* k = key.c_str();
+        size_t h = hash_cstr(k);
+        Node* cur = buckets[h];
+        while (cur) {
+            if (std::strcmp(cur->key, k) == 0) {
+                cur->value = value;
                 return;
             }
-            current = current->next;
+            cur = cur->next;
         }
-        Node* newNode = new Node(key, value);
-        newNode->next = buckets[h];
-        buckets[h] = newNode;
+        Node* node = new Node(k, value);
+        node->next = buckets[h];
+        buckets[h] = node;
         size_++;
     }
 
-    V* get(const std::string& key) {
-        size_t h = hash(key);
-        Node* current = buckets[h];
-        while (current) {
-            if (current->data.key == key) {
-                return &(current->data.value);
-            }
-            current = current->next;
+    V* get(const SchString& key) {
+        const char* k = key.c_str();
+        size_t h = hash_cstr(k);
+        Node* cur = buckets[h];
+        while (cur) {
+            if (std::strcmp(cur->key, k) == 0) return &(cur->value);
+            cur = cur->next;
         }
         return nullptr;
     }
 
-    SchVector<std::string> get_keys() const {
-        SchVector<std::string> keys;
+    SchVector<SchString> get_keys() const {
+        SchVector<SchString> keys;
         for (size_t i = 0; i < bucket_count; ++i) {
-            Node* current = buckets[i];
-            while (current) {
-                keys.push_back(current->data.key);
-                current = current->next;
+            Node* cur = buckets[i];
+            while (cur) {
+                keys.push_back(SchString(cur->key));
+                cur = cur->next;
             }
         }
         return keys;
     }
-    
+
     size_t size() const { return size_; }
 };
 

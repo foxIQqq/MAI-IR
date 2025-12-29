@@ -1,0 +1,10 @@
+q1 kernel AND ubuntu
+q2 kernel firmware
+q3 kernel or ubuntu
+q4 filesystem journal
+q5 network protocols
+q6 engine or linux
+q7 debian linux
+q8 directory file
+q9 hardware or protocol
+q10 code editor

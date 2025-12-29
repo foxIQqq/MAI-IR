@@ -1,5 +1,6 @@
 import subprocess
 import os
+import time
 from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
@@ -13,95 +14,128 @@ def get_search_process():
     global search_process
     if search_process is None or search_process.poll() is not None:
         if not os.path.exists(INDEX_FILE):
-             print(f"ERROR: Index file {INDEX_FILE} missing! Run indexer first.")
              return None
-             
         search_process = subprocess.Popen(
             [SEARCH_BINARY, INDEX_FILE],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            bufsize=1 
+            bufsize=1
         )
-        while True:
+        timeout = 5.0
+        start = time.time()
+        while time.time() - start < timeout:
             line = search_process.stderr.readline()
-            if "Ready" in line:
-                break
             if not line:
+                time.sleep(0.05)
+                continue
+            if "Ready" in line or "Index loaded" in line:
                 break
     return search_process
 
 @app.route("/", methods=["GET", "POST"])
 def index():
     results = []
+    found_count = "0"
     query = ""
     error_msg = ""
-    
+
     if request.method == "POST":
-        query = request.form.get("query", "")
+        query = request.form.get("query", "").strip()
         if query:
             proc = get_search_process()
-            if proc:
+            if proc is None:
+                error_msg = f"Index file not found ({INDEX_FILE}); запустите индексер."
+            else:
                 try:
                     proc.stdin.write(query + "\n")
                     proc.stdin.flush()
-                    
-                    output_lines = []
+
                     while True:
                         line = proc.stdout.readline()
-                        if "---END---" in line or not line:
+                        if not line:
                             break
-                        output_lines.append(line.strip())
-                    results = output_lines
+                        line = line.rstrip("\n").rstrip("\r")
+                        if line.strip() == "":
+                            continue
+                        if line.strip() == "---END---":
+                            break
+                        if line.startswith("Found "):
+                            parts = line.split()
+                            if len(parts) >= 2:
+                                try:
+                                    found_count = parts[1]
+                                except Exception:
+                                    pass
+                        else:
+                            results.append(line.strip())
                 except Exception as e:
-                    error_msg = f"Search engine error: {e}"
-            else:
-                error_msg = "Search engine backend is not running. Index missing?"
+                    error_msg = f"Ошибка запуска search_cli: {e}"
 
     html = """
     <!doctype html>
-    <html lang="ru">
+    <html>
     <head>
         <meta charset="utf-8">
         <title>Scholar Search</title>
         <style>
-            body { font-family: 'Segoe UI', sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; background: #fafafa; }
-            h1 { color: #333; }
-            .search-box { display: flex; gap: 10px; }
-            input[type="text"] { flex-grow: 1; padding: 12px; font-size: 16px; border: 1px solid #ddd; border-radius: 4px; }
-            input[type="submit"] { padding: 12px 24px; font-size: 16px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
-            input[type="submit"]:hover { background: #0056b3; }
-            .result { background: white; margin-bottom: 15px; padding: 15px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-            .count { color: #666; margin: 20px 0; }
-            .error { color: red; background: #ffe6e6; padding: 10px; }
+            body { font-family: sans-serif; max-width: 900px; margin: 30px auto; background: #f4f4f9; color: #333; }
+            .search-header { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            input[type="text"] { width: 70%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+            input[type="submit"] { padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+            .results-container { 
+                margin-top: 20px; 
+                background: white; 
+                border-radius: 8px; 
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                max-height: 600px; 
+                overflow-y: auto;  
+                padding: 20px;
+            }
+            .result-item { 
+                padding: 10px; 
+                border-bottom: 1px solid #eee; 
+                display: flex;
+                align-items: center;
+            }
+            .result-item:last-child { border-bottom: none; }
+            .doc-icon { margin-right: 15px; color: #666; font-size: 1.2em; }
+            .stats { color: #666; font-size: 0.9em; margin-bottom: 10px; }
+            .error { color: #900; background: #ffecec; padding: 10px; border-radius: 4px; margin-bottom: 10px; }
         </style>
     </head>
     <body>
-        <h1>Scholar Search Engine</h1>
-        {% if error_msg %}
-            <div class="error">{{ error_msg }}</div>
-        {% endif %}
-        <form method="post" class="search-box">
-            <input type="text" name="query" value="{{ query }}" placeholder="Search query (e.g. 'kernel AND memory')...">
-            <input type="submit" value="Search">
-        </form>
-        
-        {% if results %}
-            {% for res in results %}
-                {% if "Found" in res %}
-                    <div class="count">{{ res }}</div>
-                {% else %}
-                    <div class="result">
-                        <strong>Document:</strong> {{ res }}
+        <div class="search-header">
+            <h1>Scholar IR Engine</h1>
+            {% if error_msg %}
+                <div class="error">{{ error_msg }}</div>
+            {% endif %}
+            <form method="post">
+                <input type="text" name="query" value="{{ query }}" placeholder="Query (e.g. kernel AND linux)">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+        {% if query %}
+        <div class="results-container">
+            <div class="stats">Found documents: {{ found_count }}</div>
+            {% if results %}
+                {% for res in results %}
+                    <div class="result-item">
+                        <span class="doc-icon">📄</span>
+                        <span>{{ res }}</span>
                     </div>
-                {% endif %}
-            {% endfor %}
+                {% endfor %}
+            {% else %}
+                <p>No documents found for this query.</p>
+            {% endif %}
+        </div>
         {% endif %}
     </body>
     </html>
     """
-    return render_template_string(html, query=query, results=results, error_msg=error_msg)
+    return render_template_string(html, query=query, results=results, found_count=found_count, error_msg=error_msg)
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=False)
+    app.run(port=5000)
